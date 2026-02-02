@@ -324,7 +324,57 @@ class OnnxBindings {
 
   /// 从动态库解析全部函数指针。
   factory OnnxBindings.fromLibrary(DynamicLibrary lib) {
-    return OnnxBindings.fromLookup(lib.lookupFunction);
+    return OnnxBindings(
+      init: lib.lookupFunction<OnnxInitNative, OnnxInitDart>('onnx_init'),
+      cleanup:
+          lib.lookupFunction<OnnxCleanupNative, OnnxCleanupDart>('onnx_cleanup'),
+      loadModel:
+          lib.lookupFunction<OnnxLoadModelNative, OnnxLoadModelDart>(
+        'onnx_load_model',
+      ),
+      unloadModel:
+          lib.lookupFunction<OnnxUnloadModelNative, OnnxUnloadModelDart>(
+        'onnx_unload_model',
+      ),
+      getInputSize:
+          lib.lookupFunction<OnnxGetInputSizeNative, OnnxGetInputSizeDart>(
+        'onnx_get_input_size',
+      ),
+      detect:
+          lib.lookupFunction<OnnxDetectNative, OnnxDetectDart>('onnx_detect'),
+      detectBatch:
+          lib.lookupFunction<OnnxDetectBatchNative, OnnxDetectBatchDart>(
+        'onnx_detect_batch',
+      ),
+      freeResult:
+          lib.lookupFunction<OnnxFreeResultNative, OnnxFreeResultDart>(
+        'onnx_free_result',
+      ),
+      freeBatchResult: lib.lookupFunction<OnnxFreeBatchResultNative,
+          OnnxFreeBatchResultDart>('onnx_free_batch_result'),
+      getVersion:
+          lib.lookupFunction<OnnxGetVersionNative, OnnxGetVersionDart>(
+        'onnx_get_version',
+      ),
+      isGpuAvailable:
+          lib.lookupFunction<OnnxIsGpuAvailableNative,
+              OnnxIsGpuAvailableDart>('onnx_is_gpu_available'),
+      getGpuInfo:
+          lib.lookupFunction<OnnxGetGpuInfoNative, OnnxGetGpuInfoDart>(
+        'onnx_get_gpu_info',
+      ),
+      getAvailableProviders: lib
+          .lookupFunction<OnnxGetAvailableProvidersNative,
+              OnnxGetAvailableProvidersDart>(
+        'onnx_get_available_providers',
+      ),
+      getLastError:
+          lib.lookupFunction<OnnxGetLastErrorNative, OnnxGetLastErrorDart>(
+        'onnx_get_last_error',
+      ),
+      getLastErrorCode: lib.lookupFunction<OnnxGetLastErrorCodeNative,
+          OnnxGetLastErrorCodeDart>('onnx_get_last_error_code'),
+    );
   }
 
   /// 从符号查找函数创建绑定。
