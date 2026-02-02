@@ -1,0 +1,106 @@
+# ==============================================================================
+# LabelLoad Docker 构建镜像
+# ==============================================================================
+# 基于 Ubuntu 22.04 以确保 GLib 2.72+ 兼容性
+# 可在 Ubuntu 22.04+ 系统上运行
+#
+# 构建参数:
+#   WITH_GPU    - true/false，是否安装 GPU 版 ORT
+#   ORT_VERSION - ONNX Runtime 版本号
+#
+# 用法:
+#   docker build --build-arg WITH_GPU=true -t label-load-builder:gpu .
+#   docker build --build-arg WITH_GPU=false -t label-load-builder:cpu .
+# ==============================================================================
+
+FROM ubuntu:22.04
+
+# ==============================================================================
+# 构建参数
+# ==============================================================================
+
+ARG ORT_VERSION=1.20.0
+ARG WITH_GPU=false
+
+# 镜像标签
+LABEL maintainer="Label Load Developers"
+LABEL description="LabelLoad build environment"
+LABEL ort.version="${ORT_VERSION}"
+LABEL gpu.enabled="${WITH_GPU}"
+
+# ==============================================================================
+# 环境变量
+# ==============================================================================
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=Etc/UTC
+ENV FLUTTER_VERSION=3.27.4
+ENV PATH="/opt/flutter/bin:${PATH}"
+ENV PUB_CACHE="/opt/pub-cache"
+
+# ==============================================================================
+# 安装系统依赖
+# ==============================================================================
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    # 基础工具
+    curl \
+    git \
+    unzip \
+    xz-utils \
+    zip \
+    ca-certificates \
+    wget \
+    # 构建工具
+    clang \
+    cmake \
+    ninja-build \
+    pkg-config \
+    # Flutter Linux 依赖
+    libgtk-3-dev \
+    liblzma-dev \
+    libstdc++-12-dev \
+    # 清理缓存
+    && rm -rf /var/lib/apt/lists/* \
+    && apt-get clean
+
+# ==============================================================================
+# 安装 Flutter SDK
+# ==============================================================================
+
+RUN git clone https://github.com/flutter/flutter.git \
+        -b ${FLUTTER_VERSION} \
+        --depth 1 \
+        /opt/flutter \
+    && flutter precache --linux \
+    && flutter config --no-analytics \
+    && dart --disable-analytics
+
+# ==============================================================================
+# 安装 ONNX Runtime
+# ==============================================================================
+
+RUN set -e; \
+    if [ "$WITH_GPU" = "true" ]; then \
+        ORT_PKG="onnxruntime-linux-x64-gpu-${ORT_VERSION}"; \
+        echo "Installing ONNX Runtime GPU version..."; \
+    else \
+        ORT_PKG="onnxruntime-linux-x64-${ORT_VERSION}"; \
+        echo "Installing ONNX Runtime CPU version..."; \
+    fi; \
+    wget -q "https://github.com/microsoft/onnxruntime/releases/download/v${ORT_VERSION}/${ORT_PKG}.tgz" \
+    && tar -xzf "${ORT_PKG}.tgz" \
+    && find ${ORT_PKG}/lib -maxdepth 1 -name "*.so*" -exec cp {} /usr/local/lib/ \; \
+    && cp -r ${ORT_PKG}/include/* /usr/local/include/ \
+    && ldconfig \
+    && rm -rf ${ORT_PKG}* \
+    && echo "ONNX Runtime ${ORT_VERSION} installed successfully"
+
+# ==============================================================================
+# 工作目录
+# ==============================================================================
+
+WORKDIR /app
+
+# 入口点
+ENTRYPOINT ["/bin/bash"]

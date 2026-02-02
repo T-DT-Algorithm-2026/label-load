@@ -1,0 +1,1358 @@
+{
+  "@@locale": "en",
+  "@@context": "app",
+  "appTitle": "Label Load",
+  "@appTitle": {
+    "description": "Localized string for \"appTitle\"."
+  },
+  "appName": "Label Load",
+  "@appName": {
+    "description": "Localized string for \"appName\"."
+  },
+  "file": "File",
+  "@file": {
+    "description": "Localized string for \"file\"."
+  },
+  "openFolder": "Open Folder",
+  "@openFolder": {
+    "description": "Localized string for \"openFolder\"."
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Localized string for \"save\"."
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Localized string for \"settings\"."
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Localized string for \"language\"."
+  },
+  "english": "English",
+  "@english": {
+    "description": "Localized string for \"english\"."
+  },
+  "chinese": "Chinese",
+  "@chinese": {
+    "description": "Localized string for \"chinese\"."
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Localized string for \"cancel\"."
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Localized string for \"close\"."
+  },
+  "noImage": "No Image",
+  "@noImage": {
+    "description": "Localized string for \"noImage\"."
+  },
+  "openFolderToStart": "Open a folder to start labeling",
+  "@openFolderToStart": {
+    "description": "Localized string for \"openFolderToStart\"."
+  },
+  "classLabel": "Class",
+  "@classLabel": {
+    "description": "Localized string for \"classLabel\"."
+  },
+  "autoSave": "Auto Save",
+  "@autoSave": {
+    "description": "Localized string for \"autoSave\"."
+  },
+  "autoFit": "Auto Fit",
+  "@autoFit": {
+    "description": "Localized string for \"autoFit\"."
+  },
+  "modeBbox": "BBox Mode",
+  "@modeBbox": {
+    "description": "Localized string for \"modeBbox\"."
+  },
+  "modeKeypoint": "Keypoint Mode",
+  "@modeKeypoint": {
+    "description": "Localized string for \"modeKeypoint\"."
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "Localized string for \"theme\"."
+  },
+  "lightMode": "Light Mode",
+  "@lightMode": {
+    "description": "Localized string for \"lightMode\"."
+  },
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Localized string for \"darkMode\"."
+  },
+  "themeDesc": "Toggle between light and dark appearance",
+  "@themeDesc": {
+    "description": "Localized string for \"themeDesc\"."
+  },
+  "gadgetsTitle": "Gadgets & Utilities",
+  "@gadgetsTitle": {
+    "description": "Localized string for \"gadgetsTitle\"."
+  },
+  "gadgetVideo": "Video to Frames",
+  "@gadgetVideo": {
+    "description": "Localized string for \"gadgetVideo\"."
+  },
+  "gadgetVideoDesc": "Extract frames from video",
+  "@gadgetVideoDesc": {
+    "description": "Localized string for \"gadgetVideoDesc\"."
+  },
+  "gadgetRename": "Batch Rename",
+  "@gadgetRename": {
+    "description": "Localized string for \"gadgetRename\"."
+  },
+  "gadgetRenameDesc": "Rename files in folder",
+  "@gadgetRenameDesc": {
+    "description": "Localized string for \"gadgetRenameDesc\"."
+  },
+  "gadgetConvert": "Format Convert",
+  "@gadgetConvert": {
+    "description": "Localized string for \"gadgetConvert\"."
+  },
+  "gadgetConvertDesc": "Convert label formats",
+  "@gadgetConvertDesc": {
+    "description": "Localized string for \"gadgetConvertDesc\"."
+  },
+  "gadgetCheck": "Dataset Check",
+  "@gadgetCheck": {
+    "description": "Localized string for \"gadgetCheck\"."
+  },
+  "gadgetCheckDesc": "Check missing labels",
+  "@gadgetCheckDesc": {
+    "description": "Localized string for \"gadgetCheckDesc\"."
+  },
+  "gadgetCoord": "XYXY to XYWH",
+  "@gadgetCoord": {
+    "description": "Localized string for \"gadgetCoord\"."
+  },
+  "gadgetCoordDesc": "Convert coords",
+  "@gadgetCoordDesc": {
+    "description": "Localized string for \"gadgetCoordDesc\"."
+  },
+  "gadgetExpand": "Bbox Expansion",
+  "@gadgetExpand": {
+    "description": "Localized string for \"gadgetExpand\"."
+  },
+  "gadgetExpandDesc": "Expand bounding boxes",
+  "@gadgetExpandDesc": {
+    "description": "Localized string for \"gadgetExpandDesc\"."
+  },
+  "tabLabels": "Labels",
+  "@tabLabels": {
+    "description": "Localized string for \"tabLabels\"."
+  },
+  "tabImages": "Images",
+  "@tabImages": {
+    "description": "Localized string for \"tabImages\"."
+  },
+  "noLabels": "No labels yet",
+  "@noLabels": {
+    "description": "Localized string for \"noLabels\"."
+  },
+  "drawToCreate": "Draw a box to create a label",
+  "@drawToCreate": {
+    "description": "Localized string for \"drawToCreate\"."
+  },
+  "noImagesLoaded": "No images loaded",
+  "@noImagesLoaded": {
+    "description": "Localized string for \"noImagesLoaded\"."
+  },
+  "comingSoon": "Coming soon",
+  "@comingSoon": {
+    "description": "Localized string for \"comingSoon\"."
+  },
+  "projectListTitle": "LabelLoad",
+  "@projectListTitle": {
+    "description": "Localized string for \"projectListTitle\"."
+  },
+  "noProjects": "No projects yet. Create one!",
+  "@noProjects": {
+    "description": "Localized string for \"noProjects\"."
+  },
+  "labelsCount": "{count} Labels",
+  "@labelsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"labelsCount\"."
+  },
+  "toolboxTooltip": "Toolbox",
+  "@toolboxTooltip": {
+    "description": "Localized string for \"toolboxTooltip\"."
+  },
+  "globalSettingsTooltip": "Global Settings",
+  "@globalSettingsTooltip": {
+    "description": "Localized string for \"globalSettingsTooltip\"."
+  },
+  "globalSettingsTitle": "Global Settings",
+  "@globalSettingsTitle": {
+    "description": "Localized string for \"globalSettingsTitle\"."
+  },
+  "autoSaveDesc": "Automatically save changes during navigation",
+  "@autoSaveDesc": {
+    "description": "Localized string for \"autoSaveDesc\"."
+  },
+  "languageSwitchMsg": "Language switched to English",
+  "@languageSwitchMsg": {
+    "description": "Localized string for \"languageSwitchMsg\"."
+  },
+  "featuresComingSoon": "Features Coming Soon!",
+  "@featuresComingSoon": {
+    "description": "Localized string for \"featuresComingSoon\"."
+  },
+  "selectedForRename": "Selected for rename: {path}",
+  "@selectedForRename": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    },
+    "description": "Localized string for \"selectedForRename\"."
+  },
+  "newProject": "New Project",
+  "@newProject": {
+    "description": "Localized string for \"newProject\"."
+  },
+  "editProject": "Edit Project",
+  "@editProject": {
+    "description": "Localized string for \"editProject\"."
+  },
+  "projectName": "Project Name",
+  "@projectName": {
+    "description": "Localized string for \"projectName\"."
+  },
+  "projectDesc": "Description",
+  "@projectDesc": {
+    "description": "Localized string for \"projectDesc\"."
+  },
+  "imageDir": "Image Directory",
+  "@imageDir": {
+    "description": "Localized string for \"imageDir\"."
+  },
+  "labelDir": "Label Directory",
+  "@labelDir": {
+    "description": "Localized string for \"labelDir\"."
+  },
+  "notSelected": "Not Selected",
+  "@notSelected": {
+    "description": "Localized string for \"notSelected\"."
+  },
+  "unsavedChangesTitle": "Unsaved Changes",
+  "@unsavedChangesTitle": {
+    "description": "Localized string for \"unsavedChangesTitle\"."
+  },
+  "unsavedChangesMsg": "You have unsaved changes. Do you want to discard them?",
+  "@unsavedChangesMsg": {
+    "description": "Localized string for \"unsavedChangesMsg\"."
+  },
+  "discard": "Discard",
+  "@discard": {
+    "description": "Localized string for \"discard\"."
+  },
+  "saveAndExit": "Save & Exit",
+  "@saveAndExit": {
+    "description": "Localized string for \"saveAndExit\"."
+  },
+  "projectNameRequired": "Project name is required",
+  "@projectNameRequired": {
+    "description": "Localized string for \"projectNameRequired\"."
+  },
+  "addLabel": "Add Label",
+  "@addLabel": {
+    "description": "Localized string for \"addLabel\"."
+  },
+  "editLabel": "Edit Label",
+  "@editLabel": {
+    "description": "Localized string for \"editLabel\"."
+  },
+  "labelName": "Label Name",
+  "@labelName": {
+    "description": "Localized string for \"labelName\"."
+  },
+  "colorLabel": "Color:",
+  "@colorLabel": {
+    "description": "Localized string for \"colorLabel\"."
+  },
+  "pickColor": "Pick a color",
+  "@pickColor": {
+    "description": "Localized string for \"pickColor\"."
+  },
+  "labelType": "Type",
+  "@labelType": {
+    "description": "Localized string for \"labelType\"."
+  },
+  "projectTitle": "PROJECT: {name}",
+  "@projectTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    },
+    "description": "Localized string for \"projectTitle\"."
+  },
+  "exitProject": "Exit Project",
+  "@exitProject": {
+    "description": "Localized string for \"exitProject\"."
+  },
+  "prevImage": "Previous Image",
+  "@prevImage": {
+    "description": "Localized string for \"prevImage\"."
+  },
+  "nextImage": "Next Image",
+  "@nextImage": {
+    "description": "Localized string for \"nextImage\"."
+  },
+  "noProjectOpen": "No project open",
+  "@noProjectOpen": {
+    "description": "Localized string for \"noProjectOpen\"."
+  },
+  "imageIndex": "{index} / {total}",
+  "@imageIndex": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"imageIndex\"."
+  },
+  "labelsSaved": "Labels saved",
+  "@labelsSaved": {
+    "description": "Localized string for \"labelsSaved\"."
+  },
+  "deleteProject": "Delete Project",
+  "@deleteProject": {
+    "description": "Localized string for \"deleteProject\"."
+  },
+  "deleteProjectConfirmTitle": "Delete Project?",
+  "@deleteProjectConfirmTitle": {
+    "description": "Localized string for \"deleteProjectConfirmTitle\"."
+  },
+  "deleteProjectConfirmMsg": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+  "@deleteProjectConfirmMsg": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    },
+    "description": "Localized string for \"deleteProjectConfirmMsg\"."
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Localized string for \"delete\"."
+  },
+  "boxDrawMode": "Box Drawing Mode",
+  "@boxDrawMode": {
+    "description": "Localized string for \"boxDrawMode\"."
+  },
+  "boxDrawModeDrag": "Drag Mode",
+  "@boxDrawModeDrag": {
+    "description": "Localized string for \"boxDrawModeDrag\"."
+  },
+  "boxDrawModeDragDesc": "Hold and drag to draw bounding box",
+  "@boxDrawModeDragDesc": {
+    "description": "Localized string for \"boxDrawModeDragDesc\"."
+  },
+  "boxDrawModeTwoClick": "Two-Click Mode",
+  "@boxDrawModeTwoClick": {
+    "description": "Localized string for \"boxDrawModeTwoClick\"."
+  },
+  "boxDrawModeTwoClickDesc": "Click corner point, then click opposite corner",
+  "@boxDrawModeTwoClickDesc": {
+    "description": "Localized string for \"boxDrawModeTwoClickDesc\"."
+  },
+  "boxDrawModeTwoClickTip": "In two-click mode, use move key to add keypoints for BoxWithPoint labels",
+  "@boxDrawModeTwoClickTip": {
+    "description": "Localized string for \"boxDrawModeTwoClickTip\"."
+  },
+  "zoomScaleRange": "Zoom Scale Range",
+  "@zoomScaleRange": {
+    "description": "Localized string for \"zoomScaleRange\"."
+  },
+  "minZoom": "Min Zoom:",
+  "@minZoom": {
+    "description": "Localized string for \"minZoom\"."
+  },
+  "maxZoom": "Max Zoom:",
+  "@maxZoom": {
+    "description": "Localized string for \"maxZoom\"."
+  },
+  "zoomScaleRangeDesc": "Adjust the minimum and maximum zoom levels for image canvas",
+  "@zoomScaleRangeDesc": {
+    "description": "Localized string for \"zoomScaleRangeDesc\"."
+  },
+  "imageInterpolation": "Image Interpolation",
+  "@imageInterpolation": {
+    "description": "Localized string for \"imageInterpolation\"."
+  },
+  "imageInterpolationDesc": "Smooth zoomed images (can look blurry when enlarged)",
+  "@imageInterpolationDesc": {
+    "description": "Localized string for \"imageInterpolationDesc\"."
+  },
+  "keyBindings": "Key Bindings",
+  "@keyBindings": {
+    "description": "Localized string for \"keyBindings\"."
+  },
+  "keyBindingsTitle": "Custom Key Bindings",
+  "@keyBindingsTitle": {
+    "description": "Localized string for \"keyBindingsTitle\"."
+  },
+  "keyBindingsDesc": "Bind any action to keyboard or mouse buttons",
+  "@keyBindingsDesc": {
+    "description": "Localized string for \"keyBindingsDesc\"."
+  },
+  "resetKeyBindingsTitle": "Reset to Default?",
+  "@resetKeyBindingsTitle": {
+    "description": "Localized string for \"resetKeyBindingsTitle\"."
+  },
+  "resetKeyBindingsMsg": "Are you sure you want to reset all key bindings to default?",
+  "@resetKeyBindingsMsg": {
+    "description": "Localized string for \"resetKeyBindingsMsg\"."
+  },
+  "resetToDefault": "Reset to Default",
+  "@resetToDefault": {
+    "description": "Localized string for \"resetToDefault\"."
+  },
+  "reset": "Reset",
+  "@reset": {
+    "description": "Localized string for \"reset\"."
+  },
+  "clearBinding": "Clear binding",
+  "@clearBinding": {
+    "description": "Localized string for \"clearBinding\"."
+  },
+  "pointSize": "Point Size",
+  "@pointSize": {
+    "description": "Localized string for \"pointSize\"."
+  },
+  "pointSizeDesc": "Adjust the display size of keypoints and vertices (relative to window)",
+  "@pointSizeDesc": {
+    "description": "Localized string for \"pointSizeDesc\"."
+  },
+  "pointHitRadius": "Point Touch Radius",
+  "@pointHitRadius": {
+    "description": "Localized string for \"pointHitRadius\"."
+  },
+  "pointHitRadiusDesc": "Adjust the hit detection area for points (constant screen size)",
+  "@pointHitRadiusDesc": {
+    "description": "Localized string for \"pointHitRadiusDesc\"."
+  },
+  "fillShape": "Fill Shapes",
+  "@fillShape": {
+    "description": "Localized string for \"fillShape\"."
+  },
+  "fillShapeDesc": "Fill polygons and bounding boxes with color",
+  "@fillShapeDesc": {
+    "description": "Localized string for \"fillShapeDesc\"."
+  },
+  "exportLabels": "Export Label Config",
+  "@exportLabels": {
+    "description": "Localized string for \"exportLabels\"."
+  },
+  "importLabels": "Import Label Config",
+  "@importLabels": {
+    "description": "Localized string for \"importLabels\"."
+  },
+  "exportSuccess": "Export successful",
+  "@exportSuccess": {
+    "description": "Localized string for \"exportSuccess\"."
+  },
+  "importSuccess": "Import successful",
+  "@importSuccess": {
+    "description": "Localized string for \"importSuccess\"."
+  },
+  "exportFailed": "Export failed",
+  "@exportFailed": {
+    "description": "Localized string for \"exportFailed\"."
+  },
+  "importFailed": "Import failed",
+  "@importFailed": {
+    "description": "Localized string for \"importFailed\"."
+  },
+  "noLabelsToExport": "No labels to export",
+  "@noLabelsToExport": {
+    "description": "Localized string for \"noLabelsToExport\"."
+  },
+  "labelDefinitions": "Label Definitions",
+  "@labelDefinitions": {
+    "description": "Localized string for \"labelDefinitions\"."
+  },
+  "changeLabel": "Change Label Class",
+  "@changeLabel": {
+    "description": "Localized string for \"changeLabel\"."
+  },
+  "labelTypeConversion": "Type Conversion",
+  "@labelTypeConversion": {
+    "description": "Localized string for \"labelTypeConversion\"."
+  },
+  "inferenceDevice": "Inference Device",
+  "@inferenceDevice": {
+    "description": "Localized string for \"inferenceDevice\"."
+  },
+  "inferenceDeviceDesc": "Select the compute device for AI inference",
+  "@inferenceDeviceDesc": {
+    "description": "Localized string for \"inferenceDeviceDesc\"."
+  },
+  "inferenceDeviceCpu": "CPU",
+  "@inferenceDeviceCpu": {
+    "description": "Localized string for \"inferenceDeviceCpu\"."
+  },
+  "inferenceDeviceCpuDesc": "Use CPU for inference (compatible, slower)",
+  "@inferenceDeviceCpuDesc": {
+    "description": "Localized string for \"inferenceDeviceCpuDesc\"."
+  },
+  "inferenceDeviceGpu": "GPU",
+  "@inferenceDeviceGpu": {
+    "description": "Localized string for \"inferenceDeviceGpu\"."
+  },
+  "inferenceDeviceGpuDesc": "Use GPU accelerated inference (fast, requires CUDA)",
+  "@inferenceDeviceGpuDesc": {
+    "description": "Localized string for \"inferenceDeviceGpuDesc\"."
+  },
+  "gpuNotAvailable": "GPU Not Available",
+  "@gpuNotAvailable": {
+    "description": "Localized string for \"gpuNotAvailable\"."
+  },
+  "gpuNotAvailableDesc": "No available GPU device or CUDA support detected",
+  "@gpuNotAvailableDesc": {
+    "description": "Localized string for \"gpuNotAvailableDesc\"."
+  },
+  "gpuDetected": "GPU Detected",
+  "@gpuDetected": {
+    "description": "Localized string for \"gpuDetected\"."
+  },
+  "refreshGpuDetection": "Refresh Detection",
+  "@refreshGpuDetection": {
+    "description": "Localized string for \"refreshGpuDetection\"."
+  },
+  "availableProviders": "Available Inference Backends",
+  "@availableProviders": {
+    "description": "Localized string for \"availableProviders\"."
+  },
+  "deviceInfo": "Device Info",
+  "@deviceInfo": {
+    "description": "Localized string for \"deviceInfo\"."
+  },
+  "aiSettings": "AI Auto Labeling",
+  "@aiSettings": {
+    "description": "Localized string for \"aiSettings\"."
+  },
+  "aiSettingsDesc": "Configure AI model for automatic labeling",
+  "@aiSettingsDesc": {
+    "description": "Localized string for \"aiSettingsDesc\"."
+  },
+  "modelType": "Model Type",
+  "@modelType": {
+    "description": "Localized string for \"modelType\"."
+  },
+  "modelTypeYolo": "YOLO Object Detection",
+  "@modelTypeYolo": {
+    "description": "Localized string for \"modelTypeYolo\"."
+  },
+  "modelTypeYoloPose": "YOLO-Pose Estimation",
+  "@modelTypeYoloPose": {
+    "description": "Localized string for \"modelTypeYoloPose\"."
+  },
+  "modelPath": "Model Path",
+  "@modelPath": {
+    "description": "Localized string for \"modelPath\"."
+  },
+  "modelPathHint": "Select ONNX model file",
+  "@modelPathHint": {
+    "description": "Localized string for \"modelPathHint\"."
+  },
+  "selectModel": "Select Model",
+  "@selectModel": {
+    "description": "Localized string for \"selectModel\"."
+  },
+  "noModelSelected": "No model selected",
+  "@noModelSelected": {
+    "description": "Localized string for \"noModelSelected\"."
+  },
+  "confidenceThreshold": "Confidence Threshold",
+  "@confidenceThreshold": {
+    "description": "Localized string for \"confidenceThreshold\"."
+  },
+  "nmsThreshold": "NMS Threshold",
+  "@nmsThreshold": {
+    "description": "Localized string for \"nmsThreshold\"."
+  },
+  "autoInferOnNext": "Auto Infer on Image Change",
+  "@autoInferOnNext": {
+    "description": "Localized string for \"autoInferOnNext\"."
+  },
+  "autoInferOnNextDesc": "Automatically run AI inference when navigating images",
+  "@autoInferOnNextDesc": {
+    "description": "Localized string for \"autoInferOnNextDesc\"."
+  },
+  "labelSaveMode": "Label Save Mode",
+  "@labelSaveMode": {
+    "description": "Localized string for \"labelSaveMode\"."
+  },
+  "labelSaveModeAppend": "Append",
+  "@labelSaveModeAppend": {
+    "description": "Localized string for \"labelSaveModeAppend\"."
+  },
+  "labelSaveModeAppendDesc": "Add AI results to existing labels",
+  "@labelSaveModeAppendDesc": {
+    "description": "Localized string for \"labelSaveModeAppendDesc\"."
+  },
+  "labelSaveModeOverwrite": "Overwrite",
+  "@labelSaveModeOverwrite": {
+    "description": "Localized string for \"labelSaveModeOverwrite\"."
+  },
+  "labelSaveModeOverwriteDesc": "Replace existing labels with AI results",
+  "@labelSaveModeOverwriteDesc": {
+    "description": "Localized string for \"labelSaveModeOverwriteDesc\"."
+  },
+  "runInference": "Run AI Inference",
+  "@runInference": {
+    "description": "Localized string for \"runInference\"."
+  },
+  "inferenceRunning": "Running inference...",
+  "@inferenceRunning": {
+    "description": "Localized string for \"inferenceRunning\"."
+  },
+  "inferenceComplete": "Inference complete, detected {count} objects",
+  "@inferenceComplete": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"inferenceComplete\"."
+  },
+  "inferenceFailed": "Inference failed",
+  "@inferenceFailed": {
+    "description": "Localized string for \"inferenceFailed\"."
+  },
+  "modelNotLoaded": "Model not loaded",
+  "@modelNotLoaded": {
+    "description": "Localized string for \"modelNotLoaded\"."
+  },
+  "modelLoading": "Loading model...",
+  "@modelLoading": {
+    "description": "Localized string for \"modelLoading\"."
+  },
+  "modelLoaded": "Model loaded",
+  "@modelLoaded": {
+    "description": "Localized string for \"modelLoaded\"."
+  },
+  "modelLoadFailed": "Model load failed",
+  "@modelLoadFailed": {
+    "description": "Localized string for \"modelLoadFailed\"."
+  },
+  "clearModel": "Clear Model",
+  "@clearModel": {
+    "description": "Localized string for \"clearModel\"."
+  },
+  "aiInferenceNoProject": "Please load a project first",
+  "@aiInferenceNoProject": {
+    "description": "Localized string for \"aiInferenceNoProject\"."
+  },
+  "aiInferenceNoModel": "Please configure an AI model in project settings",
+  "@aiInferenceNoModel": {
+    "description": "Localized string for \"aiInferenceNoModel\"."
+  },
+  "aiInferenceRunning": "Running AI inference...",
+  "@aiInferenceRunning": {
+    "description": "Localized string for \"aiInferenceRunning\"."
+  },
+  "aiInferenceComplete": "AI inference complete, detected {count} objects",
+  "@aiInferenceComplete": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"aiInferenceComplete\"."
+  },
+  "numKeypoints": "Number of Keypoints",
+  "@numKeypoints": {
+    "description": "Localized string for \"numKeypoints\"."
+  },
+  "numKeypointsDesc": "Enter keypoint count matching your pose model output",
+  "@numKeypointsDesc": {
+    "description": "Localized string for \"numKeypointsDesc\"."
+  },
+  "keypointConfThreshold": "Keypoint Confidence Threshold",
+  "@keypointConfThreshold": {
+    "description": "Localized string for \"keypointConfThreshold\"."
+  },
+  "toggleVisibility": "Toggle Keypoint Visibility",
+  "@toggleVisibility": {
+    "description": "Localized string for \"toggleVisibility\"."
+  },
+  "visibilityNotLabeled": "Not Labeled",
+  "@visibilityNotLabeled": {
+    "description": "Localized string for \"visibilityNotLabeled\"."
+  },
+  "visibilityOccluded": "Occluded",
+  "@visibilityOccluded": {
+    "description": "Localized string for \"visibilityOccluded\"."
+  },
+  "visibilityVisible": "Visible",
+  "@visibilityVisible": {
+    "description": "Localized string for \"visibilityVisible\"."
+  },
+  "darkEnhanceOnToast": "Dark enhance: On",
+  "@darkEnhanceOnToast": {
+    "description": "Localized string for \"darkEnhanceOnToast\"."
+  },
+  "darkEnhanceOffToast": "Dark enhance: Off",
+  "@darkEnhanceOffToast": {
+    "description": "Localized string for \"darkEnhanceOffToast\"."
+  },
+  "keypointVisibilityToast": "Keypoint {index}: {visibility}",
+  "@keypointVisibilityToast": {
+    "placeholders": {
+      "index": {},
+      "visibility": {}
+    },
+    "description": "Localized string for \"keypointVisibilityToast\"."
+  },
+  "splashSubtitle": "Image labeling tool",
+  "@splashSubtitle": {
+    "description": "Localized string for \"splashSubtitle\"."
+  },
+  "splashLoading": "Loading...",
+  "@splashLoading": {
+    "description": "Localized string for \"splashLoading\"."
+  },
+  "toolbarSettingsTooltip": "Project settings",
+  "@toolbarSettingsTooltip": {
+    "description": "Localized string for \"toolbarSettingsTooltip\"."
+  },
+  "toolbarDeleteFailed": "Delete failed: {error}",
+  "@toolbarDeleteFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "Localized string for \"toolbarDeleteFailed\"."
+  },
+  "noClasses": "No classes",
+  "@noClasses": {
+    "description": "Localized string for \"noClasses\"."
+  },
+  "unknownProjectName": "Unknown project",
+  "@unknownProjectName": {
+    "description": "Localized string for \"unknownProjectName\"."
+  },
+  "currentProjectName": "Current project",
+  "@currentProjectName": {
+    "description": "Localized string for \"currentProjectName\"."
+  },
+  "pointsCount": "{count} pts",
+  "@pointsCount": {
+    "placeholders": {
+      "count": {}
+    },
+    "description": "Localized string for \"pointsCount\"."
+  },
+  "labelTypeBox": "Box",
+  "@labelTypeBox": {
+    "description": "Localized string for \"labelTypeBox\"."
+  },
+  "labelTypeBoxWithPoint": "BoxWithPoint",
+  "@labelTypeBoxWithPoint": {
+    "description": "Localized string for \"labelTypeBoxWithPoint\"."
+  },
+  "labelTypePolygon": "Polygon",
+  "@labelTypePolygon": {
+    "description": "Localized string for \"labelTypePolygon\"."
+  },
+  "gadgetTargetClasses": "Target classes.txt",
+  "@gadgetTargetClasses": {
+    "description": "Localized string for \"gadgetTargetClasses\"."
+  },
+  "gadgetClassMapping": "Class Mapping",
+  "@gadgetClassMapping": {
+    "description": "Localized string for \"gadgetClassMapping\"."
+  },
+  "gadgetMappingDelete": "(Delete)",
+  "@gadgetMappingDelete": {
+    "description": "Localized string for \"gadgetMappingDelete\"."
+  },
+  "selectDirButton": "Select",
+  "@selectDirButton": {
+    "description": "Localized string for \"selectDirButton\"."
+  },
+  "selectFileButton": "Select",
+  "@selectFileButton": {
+    "description": "Localized string for \"selectFileButton\"."
+  },
+  "labelDefinitionSubtitle": "ID: {id} · {type}",
+  "@labelDefinitionSubtitle": {
+    "placeholders": {
+      "id": {},
+      "type": {}
+    },
+    "description": "Localized string for \"labelDefinitionSubtitle\"."
+  },
+  "errorProjectNotLoaded": "Project not loaded",
+  "@errorProjectNotLoaded": {
+    "description": "Localized string for \"errorProjectNotLoaded\"."
+  },
+  "errorAiModelNotConfigured": "AI model not configured",
+  "@errorAiModelNotConfigured": {
+    "description": "Localized string for \"errorAiModelNotConfigured\"."
+  },
+  "errorAiModelLoadFailed": "Failed to load AI model",
+  "@errorAiModelLoadFailed": {
+    "description": "Localized string for \"errorAiModelLoadFailed\"."
+  },
+  "errorImageNotSelected": "No image selected",
+  "@errorImageNotSelected": {
+    "description": "Localized string for \"errorImageNotSelected\"."
+  },
+  "errorAiInferenceFailed": "Auto label failed: {error}",
+  "@errorAiInferenceFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "Localized string for \"errorAiInferenceFailed\"."
+  },
+  "errorProjectListLoadFailed": "Failed to load project list: {error}",
+  "@errorProjectListLoadFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "Localized string for \"errorProjectListLoadFailed\"."
+  },
+  "errorProjectListSaveFailed": "Failed to save project list: {error}",
+  "@errorProjectListSaveFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "Localized string for \"errorProjectListSaveFailed\"."
+  },
+  "errorProjectLoadFailed": "Failed to load project: {error}",
+  "@errorProjectLoadFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "Localized string for \"errorProjectLoadFailed\"."
+  },
+  "errorImageFileNotFound": "Image file not found: {path}",
+  "@errorImageFileNotFound": {
+    "placeholders": {
+      "path": {}
+    },
+    "description": "Localized string for \"errorImageFileNotFound\"."
+  },
+  "errorImageDecodeFailed": "Image decode failed",
+  "@errorImageDecodeFailed": {
+    "description": "Localized string for \"errorImageDecodeFailed\"."
+  },
+  "errorAiModelNotLoaded": "AI model not loaded",
+  "@errorAiModelNotLoaded": {
+    "description": "Localized string for \"errorAiModelNotLoaded\"."
+  },
+  "errorIoOperationFailed": "File operation failed: {error}",
+  "@errorIoOperationFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "Localized string for \"errorIoOperationFailed\"."
+  },
+  "errorUnsavedChanges": "Unsaved changes. Please save before navigating.",
+  "@errorUnsavedChanges": {
+    "description": "Localized string for \"errorUnsavedChanges\"."
+  },
+  "errorUnexpected": "Unexpected error: {error}",
+  "@errorUnexpected": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "Localized string for \"errorUnexpected\"."
+  },
+  "errorLabelLineEmpty": "Empty label line",
+  "@errorLabelLineEmpty": {
+    "description": "Localized string for \"errorLabelLineEmpty\"."
+  },
+  "errorLabelInvalidClassId": "Invalid class id: {value}",
+  "@errorLabelInvalidClassId": {
+    "placeholders": {
+      "value": {}
+    },
+    "description": "Localized string for \"errorLabelInvalidClassId\"."
+  },
+  "errorLabelInvalidPolygon": "Invalid polygon format: {line}",
+  "@errorLabelInvalidPolygon": {
+    "placeholders": {
+      "line": {}
+    },
+    "description": "Localized string for \"errorLabelInvalidPolygon\"."
+  },
+  "errorLabelInvalidBox": "Invalid box format: {line}",
+  "@errorLabelInvalidBox": {
+    "placeholders": {
+      "line": {}
+    },
+    "description": "Localized string for \"errorLabelInvalidBox\"."
+  },
+  "gadgetMerge": "Merge Labels",
+  "@gadgetMerge": {
+    "description": "Localized string for \"gadgetMerge\"."
+  },
+  "gadgetMergeDesc": "Merge multiple label classes",
+  "@gadgetMergeDesc": {
+    "description": "Localized string for \"gadgetMergeDesc\"."
+  },
+  "gadgetBboxAdd": "Add Bbox",
+  "@gadgetBboxAdd": {
+    "description": "Localized string for \"gadgetBboxAdd\"."
+  },
+  "gadgetBboxAddDesc": "Calculate bbox from keypoints",
+  "@gadgetBboxAddDesc": {
+    "description": "Localized string for \"gadgetBboxAddDesc\"."
+  },
+  "gadgetPointDelete": "Delete Keypoints",
+  "@gadgetPointDelete": {
+    "description": "Localized string for \"gadgetPointDelete\"."
+  },
+  "gadgetPointDeleteDesc": "Keep only bbox data",
+  "@gadgetPointDeleteDesc": {
+    "description": "Localized string for \"gadgetPointDeleteDesc\"."
+  },
+  "selectInputDir": "Select Input Directory",
+  "@selectInputDir": {
+    "description": "Localized string for \"selectInputDir\"."
+  },
+  "selectOutputDir": "Select Output Directory",
+  "@selectOutputDir": {
+    "description": "Localized string for \"selectOutputDir\"."
+  },
+  "selectTargetDir": "Select Target Directory",
+  "@selectTargetDir": {
+    "description": "Localized string for \"selectTargetDir\"."
+  },
+  "inputDir": "Input Directory",
+  "@inputDir": {
+    "description": "Localized string for \"inputDir\"."
+  },
+  "outputDir": "Output Directory",
+  "@outputDir": {
+    "description": "Localized string for \"outputDir\"."
+  },
+  "targetDir": "Target Directory",
+  "@targetDir": {
+    "description": "Localized string for \"targetDir\"."
+  },
+  "startProcess": "Start",
+  "@startProcess": {
+    "description": "Localized string for \"startProcess\"."
+  },
+  "processing": "Processing...",
+  "@processing": {
+    "description": "Localized string for \"processing\"."
+  },
+  "progress": "Progress",
+  "@progress": {
+    "description": "Localized string for \"progress\"."
+  },
+  "success": "Success",
+  "@success": {
+    "description": "Localized string for \"success\"."
+  },
+  "failed": "Failed",
+  "@failed": {
+    "description": "Localized string for \"failed\"."
+  },
+  "completed": "Completed",
+  "@completed": {
+    "description": "Localized string for \"completed\"."
+  },
+  "frameInterval": "Frame Interval (seconds)",
+  "@frameInterval": {
+    "description": "Localized string for \"frameInterval\"."
+  },
+  "videoFiles": "Video Files",
+  "@videoFiles": {
+    "description": "Localized string for \"videoFiles\"."
+  },
+  "extractFrames": "Extract Frames",
+  "@extractFrames": {
+    "description": "Localized string for \"extractFrames\"."
+  },
+  "foundNVideos": "Found {count} videos",
+  "@foundNVideos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"foundNVideos\"."
+  },
+  "foundNImages": "Found {count} images",
+  "@foundNImages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"foundNImages\"."
+  },
+  "foundNLabels": "Found {count} labels",
+  "@foundNLabels": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"foundNLabels\"."
+  },
+  "successNFailedM": "Success: {success}, Failed: {failed}",
+  "@successNFailedM": {
+    "placeholders": {
+      "success": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"successNFailedM\"."
+  },
+  "inputEmpty": "Input is empty",
+  "@inputEmpty": {
+    "description": "Localized string for \"inputEmpty\"."
+  },
+  "outputEmpty": "Output is empty",
+  "@outputEmpty": {
+    "description": "Localized string for \"outputEmpty\"."
+  },
+  "xyxyWarning": "About to convert coordinates. Please ensure original data is in XYXY format and do not repeat conversion, otherwise it will cause irreversible data loss. (Recommend backup)",
+  "@xyxyWarning": {
+    "description": "Localized string for \"xyxyWarning\"."
+  },
+  "bboxExpandWarning": "About to expand bounding boxes. Please backup your data first.",
+  "@bboxExpandWarning": {
+    "description": "Localized string for \"bboxExpandWarning\"."
+  },
+  "checkAndFix": "Check and Fix",
+  "@checkAndFix": {
+    "description": "Localized string for \"checkAndFix\"."
+  },
+  "checkDesc": "Check and fix out-of-bounds bboxes and duplicates",
+  "@checkDesc": {
+    "description": "Localized string for \"checkDesc\"."
+  },
+  "expandRatioX": "Expand Ratio X",
+  "@expandRatioX": {
+    "description": "Localized string for \"expandRatioX\"."
+  },
+  "expandRatioY": "Expand Ratio Y",
+  "@expandRatioY": {
+    "description": "Localized string for \"expandRatioY\"."
+  },
+  "expandBiasX": "Bias X",
+  "@expandBiasX": {
+    "description": "Localized string for \"expandBiasX\"."
+  },
+  "expandBiasY": "Bias Y",
+  "@expandBiasY": {
+    "description": "Localized string for \"expandBiasY\"."
+  },
+  "warning": "Warning",
+  "@warning": {
+    "description": "Localized string for \"warning\"."
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Localized string for \"confirm\"."
+  },
+  "backupRecommended": "Backup Recommended",
+  "@backupRecommended": {
+    "description": "Localized string for \"backupRecommended\"."
+  },
+  "deleteLabelTitle": "Delete Label Category",
+  "@deleteLabelTitle": {
+    "description": "Localized string for \"deleteLabelTitle\"."
+  },
+  "deleteLabelContent": "Are you sure you want to delete \"{name}\" (ID: {classId})?",
+  "@deleteLabelContent": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "classId": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"deleteLabelContent\"."
+  },
+  "deleteLabelContentWithFiles": "Are you sure you want to delete \"{name}\" (ID: {classId})?\n\n⚠️ All annotations using this category will also be deleted from label files!",
+  "@deleteLabelContentWithFiles": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "classId": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"deleteLabelContentWithFiles\"."
+  },
+  "labelsDeletedFromFiles": "Deleted {count} labels from {files} files",
+  "@labelsDeletedFromFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "files": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"labelsDeletedFromFiles\"."
+  },
+  "classIdLabel": "Class ID",
+  "@classIdLabel": {
+    "description": "Localized string for \"classIdLabel\"."
+  },
+  "showUnlabeledPoints": "Show Unlabeled Points",
+  "@showUnlabeledPoints": {
+    "description": "Localized string for \"showUnlabeledPoints\"."
+  },
+  "showUnlabeledPointsDesc": "Show keypoints with visibility 0",
+  "@showUnlabeledPointsDesc": {
+    "description": "Localized string for \"showUnlabeledPointsDesc\"."
+  },
+  "batchInference": "Batch Inference",
+  "@batchInference": {
+    "description": "Localized string for \"batchInference\"."
+  },
+  "batchInferenceDesc": "Run AI inference on all images",
+  "@batchInferenceDesc": {
+    "description": "Localized string for \"batchInferenceDesc\"."
+  },
+  "batchInferenceRunning": "Batch inference running... ({current}/{total})",
+  "@batchInferenceRunning": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    },
+    "description": "Localized string for \"batchInferenceRunning\"."
+  },
+  "batchInferenceComplete": "Batch inference complete",
+  "@batchInferenceComplete": {
+    "description": "Localized string for \"batchInferenceComplete\"."
+  },
+  "deleteImageAndLabel": "Delete Image and Label",
+  "@deleteImageAndLabel": {
+    "description": "Localized string for \"deleteImageAndLabel\"."
+  },
+  "deleteImageConfirm": "Are you sure you want to delete the current image and its label? This cannot be undone.",
+  "@deleteImageConfirm": {
+    "description": "Localized string for \"deleteImageConfirm\"."
+  },
+  "imageDeleted": "Image and label deleted",
+  "@imageDeleted": {
+    "description": "Localized string for \"imageDeleted\"."
+  },
+  "keySpace": "Space",
+  "@keySpace": {
+    "description": "Localized string for \"keySpace\"."
+  },
+  "keyBackspace": "Backspace",
+  "@keyBackspace": {
+    "description": "Localized string for \"keyBackspace\"."
+  },
+  "keyArrowUp": "↑",
+  "@keyArrowUp": {
+    "description": "Localized string for \"keyArrowUp\"."
+  },
+  "keyArrowDown": "↓",
+  "@keyArrowDown": {
+    "description": "Localized string for \"keyArrowDown\"."
+  },
+  "keyArrowLeft": "←",
+  "@keyArrowLeft": {
+    "description": "Localized string for \"keyArrowLeft\"."
+  },
+  "keyArrowRight": "→",
+  "@keyArrowRight": {
+    "description": "Localized string for \"keyArrowRight\"."
+  },
+  "mouseLeft": "Left Click",
+  "@mouseLeft": {
+    "description": "Localized string for \"mouseLeft\"."
+  },
+  "mouseRight": "Right Click",
+  "@mouseRight": {
+    "description": "Localized string for \"mouseRight\"."
+  },
+  "mouseMiddle": "Middle Click",
+  "@mouseMiddle": {
+    "description": "Localized string for \"mouseMiddle\"."
+  },
+  "mouseBack": "Back Button",
+  "@mouseBack": {
+    "description": "Localized string for \"mouseBack\"."
+  },
+  "mouseForward": "Forward Button",
+  "@mouseForward": {
+    "description": "Localized string for \"mouseForward\"."
+  },
+  "scrollUp": "Scroll Up",
+  "@scrollUp": {
+    "description": "Localized string for \"scrollUp\"."
+  },
+  "scrollDown": "Scroll Down",
+  "@scrollDown": {
+    "description": "Localized string for \"scrollDown\"."
+  },
+  "actionPrevImage": "Previous Image",
+  "@actionPrevImage": {
+    "description": "Localized string for \"actionPrevImage\"."
+  },
+  "actionNextImage": "Next Image",
+  "@actionNextImage": {
+    "description": "Localized string for \"actionNextImage\"."
+  },
+  "actionPrevLabel": "Previous Label",
+  "@actionPrevLabel": {
+    "description": "Localized string for \"actionPrevLabel\"."
+  },
+  "actionNextLabel": "Next Label",
+  "@actionNextLabel": {
+    "description": "Localized string for \"actionNextLabel\"."
+  },
+  "actionToggleMode": "Toggle Mode (Create/Edit)",
+  "@actionToggleMode": {
+    "description": "Localized string for \"actionToggleMode\"."
+  },
+  "actionNextClass": "Next Class",
+  "@actionNextClass": {
+    "description": "Localized string for \"actionNextClass\"."
+  },
+  "actionDeleteSelected": "Delete Selected",
+  "@actionDeleteSelected": {
+    "description": "Localized string for \"actionDeleteSelected\"."
+  },
+  "actionSave": "Save Labels",
+  "@actionSave": {
+    "description": "Localized string for \"actionSave\"."
+  },
+  "actionUndo": "Undo",
+  "@actionUndo": {
+    "description": "Localized string for \"actionUndo\"."
+  },
+  "actionRedo": "Redo",
+  "@actionRedo": {
+    "description": "Localized string for \"actionRedo\"."
+  },
+  "actionToggleDarkEnhance": "Toggle Dark Enhancement",
+  "@actionToggleDarkEnhance": {
+    "description": "Localized string for \"actionToggleDarkEnhance\"."
+  },
+  "actionCancelOperation": "Cancel Operation",
+  "@actionCancelOperation": {
+    "description": "Localized string for \"actionCancelOperation\"."
+  },
+  "actionCycleBinding": "Cycle Binding",
+  "@actionCycleBinding": {
+    "description": "Localized string for \"actionCycleBinding\"."
+  },
+  "actionAiInference": "AI Inference",
+  "@actionAiInference": {
+    "description": "Localized string for \"actionAiInference\"."
+  },
+  "actionToggleVisibility": "Toggle Keypoint Visibility",
+  "@actionToggleVisibility": {
+    "description": "Localized string for \"actionToggleVisibility\"."
+  },
+  "actionMouseCreate": "Create (Mouse/Keyboard)",
+  "@actionMouseCreate": {
+    "description": "Localized string for \"actionMouseCreate\"."
+  },
+  "actionMouseDelete": "Delete (Mouse/Keyboard)",
+  "@actionMouseDelete": {
+    "description": "Localized string for \"actionMouseDelete\"."
+  },
+  "actionMouseMove": "Move/Drag (Mouse/Keyboard)",
+  "@actionMouseMove": {
+    "description": "Localized string for \"actionMouseMove\"."
+  },
+  "actionZoomIn": "Zoom In",
+  "@actionZoomIn": {
+    "description": "Localized string for \"actionZoomIn\"."
+  },
+  "actionZoomOut": "Zoom Out",
+  "@actionZoomOut": {
+    "description": "Localized string for \"actionZoomOut\"."
+  },
+  "categoryNavigation": "Navigation",
+  "@categoryNavigation": {
+    "description": "Localized string for \"categoryNavigation\"."
+  },
+  "categoryLabelSwitch": "Label Switch",
+  "@categoryLabelSwitch": {
+    "description": "Localized string for \"categoryLabelSwitch\"."
+  },
+  "categoryMode": "Mode",
+  "@categoryMode": {
+    "description": "Localized string for \"categoryMode\"."
+  },
+  "categoryEdit": "Edit",
+  "@categoryEdit": {
+    "description": "Localized string for \"categoryEdit\"."
+  },
+  "categoryMouse": "Pointer Operations",
+  "@categoryMouse": {
+    "description": "Localized string for \"categoryMouse\"."
+  },
+  "categoryZoom": "Zoom",
+  "@categoryZoom": {
+    "description": "Localized string for \"categoryZoom\"."
+  },
+  "noBinding": "(None)",
+  "@noBinding": {
+    "description": "Localized string for \"noBinding\"."
+  },
+  "pressMouseButton": "Press a mouse button...",
+  "@pressMouseButton": {
+    "description": "Localized string for \"pressMouseButton\"."
+  },
+  "scrollOrPressKey": "Scroll or press a key or mouse button...",
+  "@scrollOrPressKey": {
+    "description": "Localized string for \"scrollOrPressKey\"."
+  },
+  "pressKeyCombo": "Press a key combination...",
+  "@pressKeyCombo": {
+    "description": "Localized string for \"pressKeyCombo\"."
+  },
+  "pressKeyOrMouseButton": "Press a key or mouse button...",
+  "@pressKeyOrMouseButton": {
+    "description": "Localized string for \"pressKeyOrMouseButton\"."
+  },
+  "twoClickModeTip": "In two-click mode, use {moveKey} click to add keypoints for BoxWithPoint labels",
+  "@twoClickModeTip": {
+    "placeholders": {
+      "moveKey": {
+        "type": "String"
+      }
+    },
+    "description": "Localized string for \"twoClickModeTip\"."
+  },
+  "classIdOffset": "Class ID Offset",
+  "@classIdOffset": {
+    "description": "Localized string for \"classIdOffset\"."
+  },
+  "classIdOffsetDesc": "Useful for combining multiple models under Append mode, avoiding ID conflicts",
+  "@classIdOffsetDesc": {
+    "description": "Localized string for \"classIdOffsetDesc\"."
+  }
+}

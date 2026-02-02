@@ -1,0 +1,239 @@
+# ==============================================================================
+# LabelLoad Release Pipeline
+# ==============================================================================
+# 自动构建和发布 DEB 包
+#
+# 触发条件:
+#   - 推送标签 v*.*.*
+#   - 手动触发 (workflow_dispatch)
+#
+# 发布产物:
+#   - label-load_版本_amd64.deb (CPU 版本, ~18MB)
+#   - label-load_版本_gpu_amd64.deb (GPU 版本, ~120MB)
+# ==============================================================================
+
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number (e.g., 1.0.4)'
+        required: true
+        type: string
+      prerelease:
+        description: 'Mark as pre-release'
+        required: false
+        type: boolean
+        default: false
+
+env:
+  FLUTTER_VERSION: '3.27.4'
+  ORT_VERSION: '1.20.0'
+
+jobs:
+  # ============================================================================
+  # 构建 CPU 版本
+  # ============================================================================
+  build-cpu:
+    name: 📦 Build CPU Package
+    runs-on: ubuntu-22.04
+    
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      deb_name: ${{ steps.build.outputs.deb_name }}
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Determine version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            VERSION="${{ github.event.inputs.version }}"
+          else
+            VERSION="${GITHUB_REF#refs/tags/v}"
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "📋 Building version: $VERSION"
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: 'stable'
+          cache: true
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            clang cmake ninja-build pkg-config \
+            libgtk-3-dev liblzma-dev libstdc++-12-dev \
+            imagemagick
+
+      - name: Install ONNX Runtime (CPU)
+        run: |
+          wget -q "https://github.com/microsoft/onnxruntime/releases/download/v${{ env.ORT_VERSION }}/onnxruntime-linux-x64-${{ env.ORT_VERSION }}.tgz"
+          tar -xzf "onnxruntime-linux-x64-${{ env.ORT_VERSION }}.tgz"
+          sudo cp onnxruntime-linux-x64-${{ env.ORT_VERSION }}/lib/*.so* /usr/local/lib/
+          sudo cp -r onnxruntime-linux-x64-${{ env.ORT_VERSION }}/include/* /usr/local/include/
+          sudo ldconfig
+
+      - name: Build release
+        run: ./run.sh release
+
+      - name: Package DEB (CPU)
+        id: build
+        run: |
+          ./run.sh deb --cpu --version ${{ steps.version.outputs.version }}
+          DEB_FILE=$(ls build/deb/*.deb | head -1)
+          DEB_NAME=$(basename "$DEB_FILE")
+          echo "deb_name=$DEB_NAME" >> $GITHUB_OUTPUT
+          echo "📦 Built: $DEB_NAME"
+
+      - name: Upload CPU artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: deb-cpu
+          path: build/deb/*.deb
+          retention-days: 7
+
+  # ============================================================================
+  # 构建 GPU 版本
+  # ============================================================================
+  build-gpu:
+    name: 📦 Build GPU Package
+    runs-on: ubuntu-22.04
+    needs: build-cpu
+    
+    outputs:
+      deb_name: ${{ steps.build.outputs.deb_name }}
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: 'stable'
+          cache: true
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            clang cmake ninja-build pkg-config \
+            libgtk-3-dev liblzma-dev libstdc++-12-dev \
+            imagemagick
+
+      - name: Install ONNX Runtime (GPU)
+        run: |
+          wget -q "https://github.com/microsoft/onnxruntime/releases/download/v${{ env.ORT_VERSION }}/onnxruntime-linux-x64-gpu-${{ env.ORT_VERSION }}.tgz"
+          tar -xzf "onnxruntime-linux-x64-gpu-${{ env.ORT_VERSION }}.tgz"
+          sudo cp onnxruntime-linux-x64-gpu-${{ env.ORT_VERSION }}/lib/*.so* /usr/local/lib/
+          sudo cp -r onnxruntime-linux-x64-gpu-${{ env.ORT_VERSION }}/include/* /usr/local/include/
+          sudo ldconfig
+
+      - name: Build release
+        run: ./run.sh release
+
+      - name: Package DEB (GPU)
+        id: build
+        run: |
+          ./run.sh deb --gpu --version ${{ needs.build-cpu.outputs.version }}
+          DEB_FILE=$(ls build/deb/*gpu*.deb | head -1)
+          DEB_NAME=$(basename "$DEB_FILE")
+          echo "deb_name=$DEB_NAME" >> $GITHUB_OUTPUT
+          echo "📦 Built: $DEB_NAME"
+
+      - name: Upload GPU artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: deb-gpu
+          path: build/deb/*.deb
+          retention-days: 7
+
+  # ============================================================================
+  # 创建 GitHub Release
+  # ============================================================================
+  release:
+    name: 🚀 Create Release
+    runs-on: ubuntu-latest
+    needs: [build-cpu, build-gpu]
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download CPU artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: deb-cpu
+          path: artifacts/
+
+      - name: Download GPU artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: deb-gpu
+          path: artifacts/
+
+      - name: List artifacts
+        run: ls -la artifacts/
+
+      - name: Generate release notes
+        id: notes
+        run: |
+          VERSION="${{ needs.build-cpu.outputs.version }}"
+          cat << 'EOF' > release_notes.md
+          ## LabelLoad v${{ needs.build-cpu.outputs.version }}
+          
+          ### 📦 下载 / Downloads
+          
+          | 版本 | 文件 | 大小 | 说明 |
+          |------|------|------|------|
+          | CPU | `${{ needs.build-cpu.outputs.deb_name }}` | ~18MB | 无需 CUDA，适合大多数用户 |
+          | GPU | `${{ needs.build-gpu.outputs.deb_name }}` | ~120MB | 需要 NVIDIA CUDA Toolkit |
+          
+          ### 📋 安装 / Installation
+          
+          ```bash
+          # CPU 版本
+          sudo apt install ./${{ needs.build-cpu.outputs.deb_name }}
+          
+          # GPU 版本 (需要先安装 CUDA Toolkit)
+          sudo apt install nvidia-cuda-toolkit
+          sudo apt install ./${{ needs.build-gpu.outputs.deb_name }}
+          ```
+          
+          ### 🔧 系统要求 / Requirements
+          
+          - Ubuntu 22.04+ (GLib 2.72+)
+          - GPU 版本需要: CUDA 11.x + cuDNN 8.x
+          
+          ---
+          
+          详细更新内容请查看 [CHANGELOG.md](CHANGELOG.md)
+          EOF
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: LabelLoad v${{ needs.build-cpu.outputs.version }}
+          body_path: release_notes.md
+          draft: false
+          prerelease: ${{ github.event.inputs.prerelease || false }}
+          files: |
+            artifacts/*.deb
+          fail_on_unmatched_files: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

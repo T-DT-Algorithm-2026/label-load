@@ -1,0 +1,1302 @@
+{
+  "@@locale": "zh",
+  "@@context": "app",
+  "appTitle": "Label Load",
+  "@appTitle": {
+    "description": "本地化字符串：\"appTitle\"。"
+  },
+  "appName": "Label Load",
+  "@appName": {
+    "description": "本地化字符串：\"appName\"。"
+  },
+  "file": "文件",
+  "@file": {
+    "description": "本地化字符串：\"file\"。"
+  },
+  "openFolder": "打开文件夹",
+  "@openFolder": {
+    "description": "本地化字符串：\"openFolder\"。"
+  },
+  "save": "保存",
+  "@save": {
+    "description": "本地化字符串：\"save\"。"
+  },
+  "settings": "设置",
+  "@settings": {
+    "description": "本地化字符串：\"settings\"。"
+  },
+  "language": "语言",
+  "@language": {
+    "description": "本地化字符串：\"language\"。"
+  },
+  "english": "英语",
+  "@english": {
+    "description": "本地化字符串：\"english\"。"
+  },
+  "chinese": "中文",
+  "@chinese": {
+    "description": "本地化字符串：\"chinese\"。"
+  },
+  "cancel": "取消",
+  "@cancel": {
+    "description": "本地化字符串：\"cancel\"。"
+  },
+  "close": "关闭",
+  "@close": {
+    "description": "本地化字符串：\"close\"。"
+  },
+  "noImage": "无图像",
+  "@noImage": {
+    "description": "本地化字符串：\"noImage\"。"
+  },
+  "openFolderToStart": "打开文件夹以开始标注",
+  "@openFolderToStart": {
+    "description": "本地化字符串：\"openFolderToStart\"。"
+  },
+  "classLabel": "类别",
+  "@classLabel": {
+    "description": "本地化字符串：\"classLabel\"。"
+  },
+  "autoSave": "自动保存",
+  "@autoSave": {
+    "description": "本地化字符串：\"autoSave\"。"
+  },
+  "autoFit": "自动适配",
+  "@autoFit": {
+    "description": "本地化字符串：\"autoFit\"。"
+  },
+  "modeBbox": "边界框模式",
+  "@modeBbox": {
+    "description": "本地化字符串：\"modeBbox\"。"
+  },
+  "modeKeypoint": "关键点模式",
+  "@modeKeypoint": {
+    "description": "本地化字符串：\"modeKeypoint\"。"
+  },
+  "theme": "主题",
+  "@theme": {
+    "description": "本地化字符串：\"theme\"。"
+  },
+  "lightMode": "浅色模式",
+  "@lightMode": {
+    "description": "本地化字符串：\"lightMode\"。"
+  },
+  "darkMode": "深色模式",
+  "@darkMode": {
+    "description": "本地化字符串：\"darkMode\"。"
+  },
+  "themeDesc": "切换浅色和深色外观",
+  "@themeDesc": {
+    "description": "本地化字符串：\"themeDesc\"。"
+  },
+  "gadgetsTitle": "工具箱",
+  "@gadgetsTitle": {
+    "description": "本地化字符串：\"gadgetsTitle\"。"
+  },
+  "gadgetVideo": "视频转帧",
+  "@gadgetVideo": {
+    "description": "本地化字符串：\"gadgetVideo\"。"
+  },
+  "gadgetVideoDesc": "从视频提取图像帧",
+  "@gadgetVideoDesc": {
+    "description": "本地化字符串：\"gadgetVideoDesc\"。"
+  },
+  "gadgetRename": "批量重命名",
+  "@gadgetRename": {
+    "description": "本地化字符串：\"gadgetRename\"。"
+  },
+  "gadgetRenameDesc": "重命名文件夹中的文件",
+  "@gadgetRenameDesc": {
+    "description": "本地化字符串：\"gadgetRenameDesc\"。"
+  },
+  "gadgetConvert": "格式转换",
+  "@gadgetConvert": {
+    "description": "本地化字符串：\"gadgetConvert\"。"
+  },
+  "gadgetConvertDesc": "转换标签格式",
+  "@gadgetConvertDesc": {
+    "description": "本地化字符串：\"gadgetConvertDesc\"。"
+  },
+  "gadgetCheck": "数据集检查",
+  "@gadgetCheck": {
+    "description": "本地化字符串：\"gadgetCheck\"。"
+  },
+  "gadgetCheckDesc": "检查缺失标签",
+  "@gadgetCheckDesc": {
+    "description": "本地化字符串：\"gadgetCheckDesc\"。"
+  },
+  "gadgetCoord": "XYXY转XYWH",
+  "@gadgetCoord": {
+    "description": "本地化字符串：\"gadgetCoord\"。"
+  },
+  "gadgetCoordDesc": "坐标转换",
+  "@gadgetCoordDesc": {
+    "description": "本地化字符串：\"gadgetCoordDesc\"。"
+  },
+  "gadgetExpand": "边界框扩充",
+  "@gadgetExpand": {
+    "description": "本地化字符串：\"gadgetExpand\"。"
+  },
+  "gadgetExpandDesc": "扩充边界框范围",
+  "@gadgetExpandDesc": {
+    "description": "本地化字符串：\"gadgetExpandDesc\"。"
+  },
+  "tabLabels": "标签",
+  "@tabLabels": {
+    "description": "本地化字符串：\"tabLabels\"。"
+  },
+  "tabImages": "图片",
+  "@tabImages": {
+    "description": "本地化字符串：\"tabImages\"。"
+  },
+  "noLabels": "暂无标签",
+  "@noLabels": {
+    "description": "本地化字符串：\"noLabels\"。"
+  },
+  "drawToCreate": "绘制方框以创建标签",
+  "@drawToCreate": {
+    "description": "本地化字符串：\"drawToCreate\"。"
+  },
+  "noImagesLoaded": "未加载图片",
+  "@noImagesLoaded": {
+    "description": "本地化字符串：\"noImagesLoaded\"。"
+  },
+  "comingSoon": "即将推出",
+  "@comingSoon": {
+    "description": "本地化字符串：\"comingSoon\"。"
+  },
+  "projectListTitle": "LabelLoad",
+  "@projectListTitle": {
+    "description": "本地化字符串：\"projectListTitle\"。"
+  },
+  "noProjects": "暂无项目，请创建！",
+  "@noProjects": {
+    "description": "本地化字符串：\"noProjects\"。"
+  },
+  "labelsCount": "{count} 个标签",
+  "@labelsCount": {
+    "description": "本地化字符串：\"labelsCount\"。"
+  },
+  "toolboxTooltip": "工具箱",
+  "@toolboxTooltip": {
+    "description": "本地化字符串：\"toolboxTooltip\"。"
+  },
+  "globalSettingsTooltip": "全局设置",
+  "@globalSettingsTooltip": {
+    "description": "本地化字符串：\"globalSettingsTooltip\"。"
+  },
+  "globalSettingsTitle": "全局设置",
+  "@globalSettingsTitle": {
+    "description": "本地化字符串：\"globalSettingsTitle\"。"
+  },
+  "autoSaveDesc": "导航时自动保存更改",
+  "@autoSaveDesc": {
+    "description": "本地化字符串：\"autoSaveDesc\"。"
+  },
+  "languageSwitchMsg": "已切换为中文",
+  "@languageSwitchMsg": {
+    "description": "本地化字符串：\"languageSwitchMsg\"。"
+  },
+  "featuresComingSoon": "功能即将上线！",
+  "@featuresComingSoon": {
+    "description": "本地化字符串：\"featuresComingSoon\"。"
+  },
+  "selectedForRename": "已选择重命名：{path}",
+  "@selectedForRename": {
+    "description": "本地化字符串：\"selectedForRename\"。"
+  },
+  "newProject": "新建项目",
+  "@newProject": {
+    "description": "本地化字符串：\"newProject\"。"
+  },
+  "editProject": "编辑项目",
+  "@editProject": {
+    "description": "本地化字符串：\"editProject\"。"
+  },
+  "projectName": "项目名称",
+  "@projectName": {
+    "description": "本地化字符串：\"projectName\"。"
+  },
+  "projectDesc": "描述",
+  "@projectDesc": {
+    "description": "本地化字符串：\"projectDesc\"。"
+  },
+  "imageDir": "图片目录",
+  "@imageDir": {
+    "description": "本地化字符串：\"imageDir\"。"
+  },
+  "labelDir": "标签目录",
+  "@labelDir": {
+    "description": "本地化字符串：\"labelDir\"。"
+  },
+  "notSelected": "未选择",
+  "@notSelected": {
+    "description": "本地化字符串：\"notSelected\"。"
+  },
+  "unsavedChangesTitle": "未保存的更改",
+  "@unsavedChangesTitle": {
+    "description": "本地化字符串：\"unsavedChangesTitle\"。"
+  },
+  "unsavedChangesMsg": "您有未保存的更改，要在退出前放弃吗？",
+  "@unsavedChangesMsg": {
+    "description": "本地化字符串：\"unsavedChangesMsg\"。"
+  },
+  "discard": "放弃",
+  "@discard": {
+    "description": "本地化字符串：\"discard\"。"
+  },
+  "saveAndExit": "保存并退出",
+  "@saveAndExit": {
+    "description": "本地化字符串：\"saveAndExit\"。"
+  },
+  "projectNameRequired": "项目名称不能为空",
+  "@projectNameRequired": {
+    "description": "本地化字符串：\"projectNameRequired\"。"
+  },
+  "addLabel": "添加标签",
+  "@addLabel": {
+    "description": "本地化字符串：\"addLabel\"。"
+  },
+  "editLabel": "编辑标签",
+  "@editLabel": {
+    "description": "本地化字符串：\"editLabel\"。"
+  },
+  "labelName": "标签名称",
+  "@labelName": {
+    "description": "本地化字符串：\"labelName\"。"
+  },
+  "colorLabel": "颜色：",
+  "@colorLabel": {
+    "description": "本地化字符串：\"colorLabel\"。"
+  },
+  "pickColor": "选择颜色",
+  "@pickColor": {
+    "description": "本地化字符串：\"pickColor\"。"
+  },
+  "labelType": "类型",
+  "@labelType": {
+    "description": "本地化字符串：\"labelType\"。"
+  },
+  "projectTitle": "项目：{name}",
+  "@projectTitle": {
+    "description": "本地化字符串：\"projectTitle\"。"
+  },
+  "exitProject": "退出项目",
+  "@exitProject": {
+    "description": "本地化字符串：\"exitProject\"。"
+  },
+  "prevImage": "上一张",
+  "@prevImage": {
+    "description": "本地化字符串：\"prevImage\"。"
+  },
+  "nextImage": "下一张",
+  "@nextImage": {
+    "description": "本地化字符串：\"nextImage\"。"
+  },
+  "noProjectOpen": "无打开的项目",
+  "@noProjectOpen": {
+    "description": "本地化字符串：\"noProjectOpen\"。"
+  },
+  "imageIndex": "{index} / {total}",
+  "@imageIndex": {
+    "description": "本地化字符串：\"imageIndex\"。"
+  },
+  "labelsSaved": "标签已保存",
+  "@labelsSaved": {
+    "description": "本地化字符串：\"labelsSaved\"。"
+  },
+  "deleteProject": "删除项目",
+  "@deleteProject": {
+    "description": "本地化字符串：\"deleteProject\"。"
+  },
+  "deleteProjectConfirmTitle": "删除项目？",
+  "@deleteProjectConfirmTitle": {
+    "description": "本地化字符串：\"deleteProjectConfirmTitle\"。"
+  },
+  "deleteProjectConfirmMsg": "确定要删除「{name}」吗？此操作无法撤销。",
+  "@deleteProjectConfirmMsg": {
+    "description": "本地化字符串：\"deleteProjectConfirmMsg\"。"
+  },
+  "delete": "删除",
+  "@delete": {
+    "description": "本地化字符串：\"delete\"。"
+  },
+  "boxDrawMode": "框选绘制模式",
+  "@boxDrawMode": {
+    "description": "本地化字符串：\"boxDrawMode\"。"
+  },
+  "boxDrawModeDrag": "拖动模式",
+  "@boxDrawModeDrag": {
+    "description": "本地化字符串：\"boxDrawModeDrag\"。"
+  },
+  "boxDrawModeDragDesc": "按住并拖动绘制边界框",
+  "@boxDrawModeDragDesc": {
+    "description": "本地化字符串：\"boxDrawModeDragDesc\"。"
+  },
+  "boxDrawModeTwoClick": "两点点击模式",
+  "@boxDrawModeTwoClick": {
+    "description": "本地化字符串：\"boxDrawModeTwoClick\"。"
+  },
+  "boxDrawModeTwoClickDesc": "点击一个角点，再点击对角点",
+  "@boxDrawModeTwoClickDesc": {
+    "description": "本地化字符串：\"boxDrawModeTwoClickDesc\"。"
+  },
+  "boxDrawModeTwoClickTip": "在两点点击模式下，BoxWithPoint 类型标签使用移动键添加关键点",
+  "@boxDrawModeTwoClickTip": {
+    "description": "本地化字符串：\"boxDrawModeTwoClickTip\"。"
+  },
+  "zoomScaleRange": "缩放倍率范围",
+  "@zoomScaleRange": {
+    "description": "本地化字符串：\"zoomScaleRange\"。"
+  },
+  "minZoom": "最小缩放：",
+  "@minZoom": {
+    "description": "本地化字符串：\"minZoom\"。"
+  },
+  "maxZoom": "最大缩放：",
+  "@maxZoom": {
+    "description": "本地化字符串：\"maxZoom\"。"
+  },
+  "zoomScaleRangeDesc": "调整图像画布的最小和最大缩放级别",
+  "@zoomScaleRangeDesc": {
+    "description": "本地化字符串：\"zoomScaleRangeDesc\"。"
+  },
+  "imageInterpolation": "图像插值",
+  "@imageInterpolation": {
+    "description": "本地化字符串：\"imageInterpolation\"。"
+  },
+  "imageInterpolationDesc": "缩放时启用插值，画面更平滑但可能更模糊",
+  "@imageInterpolationDesc": {
+    "description": "本地化字符串：\"imageInterpolationDesc\"。"
+  },
+  "keyBindings": "快捷键设置",
+  "@keyBindings": {
+    "description": "本地化字符串：\"keyBindings\"。"
+  },
+  "keyBindingsTitle": "自定义快捷键",
+  "@keyBindingsTitle": {
+    "description": "本地化字符串：\"keyBindingsTitle\"。"
+  },
+  "keyBindingsDesc": "可将任意操作绑定到键盘或鼠标按键",
+  "@keyBindingsDesc": {
+    "description": "本地化字符串：\"keyBindingsDesc\"。"
+  },
+  "resetKeyBindingsTitle": "还原默认？",
+  "@resetKeyBindingsTitle": {
+    "description": "本地化字符串：\"resetKeyBindingsTitle\"。"
+  },
+  "resetKeyBindingsMsg": "确定要将所有快捷键还原为默认设置吗？",
+  "@resetKeyBindingsMsg": {
+    "description": "本地化字符串：\"resetKeyBindingsMsg\"。"
+  },
+  "resetToDefault": "还原默认",
+  "@resetToDefault": {
+    "description": "本地化字符串：\"resetToDefault\"。"
+  },
+  "reset": "还原",
+  "@reset": {
+    "description": "本地化字符串：\"reset\"。"
+  },
+  "clearBinding": "清除绑定",
+  "@clearBinding": {
+    "description": "本地化字符串：\"clearBinding\"。"
+  },
+  "pointSize": "点大小",
+  "@pointSize": {
+    "description": "本地化字符串：\"pointSize\"。"
+  },
+  "pointSizeDesc": "调整关键点和顶点的显示大小（相对于窗口）",
+  "@pointSizeDesc": {
+    "description": "本地化字符串：\"pointSizeDesc\"。"
+  },
+  "pointHitRadius": "点触控范围",
+  "@pointHitRadius": {
+    "description": "本地化字符串：\"pointHitRadius\"。"
+  },
+  "pointHitRadiusDesc": "调整点击点的感应区域大小（固定屏幕尺寸，不随缩放变化）",
+  "@pointHitRadiusDesc": {
+    "description": "本地化字符串：\"pointHitRadiusDesc\"。"
+  },
+  "fillShape": "填充形状",
+  "@fillShape": {
+    "description": "本地化字符串：\"fillShape\"。"
+  },
+  "fillShapeDesc": "是否用颜色填充多边形和边界框",
+  "@fillShapeDesc": {
+    "description": "本地化字符串：\"fillShapeDesc\"。"
+  },
+  "exportLabels": "导出标签配置",
+  "@exportLabels": {
+    "description": "本地化字符串：\"exportLabels\"。"
+  },
+  "importLabels": "导入标签配置",
+  "@importLabels": {
+    "description": "本地化字符串：\"importLabels\"。"
+  },
+  "exportSuccess": "导出成功",
+  "@exportSuccess": {
+    "description": "本地化字符串：\"exportSuccess\"。"
+  },
+  "importSuccess": "导入成功",
+  "@importSuccess": {
+    "description": "本地化字符串：\"importSuccess\"。"
+  },
+  "exportFailed": "导出失败",
+  "@exportFailed": {
+    "description": "本地化字符串：\"exportFailed\"。"
+  },
+  "importFailed": "导入失败",
+  "@importFailed": {
+    "description": "本地化字符串：\"importFailed\"。"
+  },
+  "noLabelsToExport": "没有标签可导出",
+  "@noLabelsToExport": {
+    "description": "本地化字符串：\"noLabelsToExport\"。"
+  },
+  "labelDefinitions": "标签定义",
+  "@labelDefinitions": {
+    "description": "本地化字符串：\"labelDefinitions\"。"
+  },
+  "changeLabel": "更改标签类别",
+  "@changeLabel": {
+    "description": "本地化字符串：\"changeLabel\"。"
+  },
+  "labelTypeConversion": "类型转换",
+  "@labelTypeConversion": {
+    "description": "本地化字符串：\"labelTypeConversion\"。"
+  },
+  "inferenceDevice": "推理设备",
+  "@inferenceDevice": {
+    "description": "本地化字符串：\"inferenceDevice\"。"
+  },
+  "inferenceDeviceDesc": "选择AI推理使用的计算设备",
+  "@inferenceDeviceDesc": {
+    "description": "本地化字符串：\"inferenceDeviceDesc\"。"
+  },
+  "inferenceDeviceCpu": "CPU",
+  "@inferenceDeviceCpu": {
+    "description": "本地化字符串：\"inferenceDeviceCpu\"。"
+  },
+  "inferenceDeviceCpuDesc": "使用CPU进行推理（兼容性好，速度较慢）",
+  "@inferenceDeviceCpuDesc": {
+    "description": "本地化字符串：\"inferenceDeviceCpuDesc\"。"
+  },
+  "inferenceDeviceGpu": "GPU",
+  "@inferenceDeviceGpu": {
+    "description": "本地化字符串：\"inferenceDeviceGpu\"。"
+  },
+  "inferenceDeviceGpuDesc": "使用GPU加速推理（速度快，需要CUDA支持）",
+  "@inferenceDeviceGpuDesc": {
+    "description": "本地化字符串：\"inferenceDeviceGpuDesc\"。"
+  },
+  "gpuNotAvailable": "GPU不可用",
+  "@gpuNotAvailable": {
+    "description": "本地化字符串：\"gpuNotAvailable\"。"
+  },
+  "gpuNotAvailableDesc": "未检测到可用的GPU设备或CUDA支持",
+  "@gpuNotAvailableDesc": {
+    "description": "本地化字符串：\"gpuNotAvailableDesc\"。"
+  },
+  "gpuDetected": "已检测到GPU",
+  "@gpuDetected": {
+    "description": "本地化字符串：\"gpuDetected\"。"
+  },
+  "refreshGpuDetection": "刷新检测",
+  "@refreshGpuDetection": {
+    "description": "本地化字符串：\"refreshGpuDetection\"。"
+  },
+  "availableProviders": "可用推理后端",
+  "@availableProviders": {
+    "description": "本地化字符串：\"availableProviders\"。"
+  },
+  "deviceInfo": "设备信息",
+  "@deviceInfo": {
+    "description": "本地化字符串：\"deviceInfo\"。"
+  },
+  "aiSettings": "AI自动标注",
+  "@aiSettings": {
+    "description": "本地化字符串：\"aiSettings\"。"
+  },
+  "aiSettingsDesc": "配置AI模型进行自动标注",
+  "@aiSettingsDesc": {
+    "description": "本地化字符串：\"aiSettingsDesc\"。"
+  },
+  "modelType": "模型类型",
+  "@modelType": {
+    "description": "本地化字符串：\"modelType\"。"
+  },
+  "modelTypeYolo": "YOLO 目标检测",
+  "@modelTypeYolo": {
+    "description": "本地化字符串：\"modelTypeYolo\"。"
+  },
+  "modelTypeYoloPose": "YOLO-Pose 姿态估计",
+  "@modelTypeYoloPose": {
+    "description": "本地化字符串：\"modelTypeYoloPose\"。"
+  },
+  "modelPath": "模型路径",
+  "@modelPath": {
+    "description": "本地化字符串：\"modelPath\"。"
+  },
+  "modelPathHint": "选择ONNX模型文件",
+  "@modelPathHint": {
+    "description": "本地化字符串：\"modelPathHint\"。"
+  },
+  "selectModel": "选择模型",
+  "@selectModel": {
+    "description": "本地化字符串：\"selectModel\"。"
+  },
+  "noModelSelected": "未选择模型",
+  "@noModelSelected": {
+    "description": "本地化字符串：\"noModelSelected\"。"
+  },
+  "confidenceThreshold": "置信度阈值",
+  "@confidenceThreshold": {
+    "description": "本地化字符串：\"confidenceThreshold\"。"
+  },
+  "nmsThreshold": "NMS阈值",
+  "@nmsThreshold": {
+    "description": "本地化字符串：\"nmsThreshold\"。"
+  },
+  "autoInferOnNext": "切换图片时自动推理",
+  "@autoInferOnNext": {
+    "description": "本地化字符串：\"autoInferOnNext\"。"
+  },
+  "autoInferOnNextDesc": "按下一张/上一张时自动执行AI推理",
+  "@autoInferOnNextDesc": {
+    "description": "本地化字符串：\"autoInferOnNextDesc\"。"
+  },
+  "labelSaveMode": "标签保存模式",
+  "@labelSaveMode": {
+    "description": "本地化字符串：\"labelSaveMode\"。"
+  },
+  "labelSaveModeAppend": "追加",
+  "@labelSaveModeAppend": {
+    "description": "本地化字符串：\"labelSaveModeAppend\"。"
+  },
+  "labelSaveModeAppendDesc": "将AI结果添加到现有标签",
+  "@labelSaveModeAppendDesc": {
+    "description": "本地化字符串：\"labelSaveModeAppendDesc\"。"
+  },
+  "labelSaveModeOverwrite": "覆盖",
+  "@labelSaveModeOverwrite": {
+    "description": "本地化字符串：\"labelSaveModeOverwrite\"。"
+  },
+  "labelSaveModeOverwriteDesc": "用AI结果替换现有标签",
+  "@labelSaveModeOverwriteDesc": {
+    "description": "本地化字符串：\"labelSaveModeOverwriteDesc\"。"
+  },
+  "runInference": "执行AI推理",
+  "@runInference": {
+    "description": "本地化字符串：\"runInference\"。"
+  },
+  "inferenceRunning": "正在推理...",
+  "@inferenceRunning": {
+    "description": "本地化字符串：\"inferenceRunning\"。"
+  },
+  "inferenceComplete": "推理完成，检测到 {count} 个目标",
+  "@inferenceComplete": {
+    "description": "本地化字符串：\"inferenceComplete\"。"
+  },
+  "inferenceFailed": "推理失败",
+  "@inferenceFailed": {
+    "description": "本地化字符串：\"inferenceFailed\"。"
+  },
+  "modelNotLoaded": "模型未加载",
+  "@modelNotLoaded": {
+    "description": "本地化字符串：\"modelNotLoaded\"。"
+  },
+  "modelLoading": "正在加载模型...",
+  "@modelLoading": {
+    "description": "本地化字符串：\"modelLoading\"。"
+  },
+  "modelLoaded": "模型已加载",
+  "@modelLoaded": {
+    "description": "本地化字符串：\"modelLoaded\"。"
+  },
+  "modelLoadFailed": "模型加载失败",
+  "@modelLoadFailed": {
+    "description": "本地化字符串：\"modelLoadFailed\"。"
+  },
+  "clearModel": "清除模型",
+  "@clearModel": {
+    "description": "本地化字符串：\"clearModel\"。"
+  },
+  "aiInferenceNoProject": "请先加载项目",
+  "@aiInferenceNoProject": {
+    "description": "本地化字符串：\"aiInferenceNoProject\"。"
+  },
+  "aiInferenceNoModel": "请先在项目设置中配置AI模型",
+  "@aiInferenceNoModel": {
+    "description": "本地化字符串：\"aiInferenceNoModel\"。"
+  },
+  "aiInferenceRunning": "正在执行AI推理...",
+  "@aiInferenceRunning": {
+    "description": "本地化字符串：\"aiInferenceRunning\"。"
+  },
+  "aiInferenceComplete": "AI推理完成，检测到 {count} 个目标",
+  "@aiInferenceComplete": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "description": "本地化字符串：\"aiInferenceComplete\"。"
+  },
+  "numKeypoints": "关键点数量",
+  "@numKeypoints": {
+    "description": "本地化字符串：\"numKeypoints\"。"
+  },
+  "numKeypointsDesc": "输入与姿态模型输出匹配的关键点数量",
+  "@numKeypointsDesc": {
+    "description": "本地化字符串：\"numKeypointsDesc\"。"
+  },
+  "keypointConfThreshold": "关键点置信度阈值",
+  "@keypointConfThreshold": {
+    "description": "本地化字符串：\"keypointConfThreshold\"。"
+  },
+  "toggleVisibility": "切换关键点可见性",
+  "@toggleVisibility": {
+    "description": "本地化字符串：\"toggleVisibility\"。"
+  },
+  "visibilityNotLabeled": "未标注",
+  "@visibilityNotLabeled": {
+    "description": "本地化字符串：\"visibilityNotLabeled\"。"
+  },
+  "visibilityOccluded": "被遮挡",
+  "@visibilityOccluded": {
+    "description": "本地化字符串：\"visibilityOccluded\"。"
+  },
+  "visibilityVisible": "可见",
+  "@visibilityVisible": {
+    "description": "本地化字符串：\"visibilityVisible\"。"
+  },
+  "darkEnhanceOnToast": "暗部增强: 开",
+  "@darkEnhanceOnToast": {
+    "description": "本地化字符串：\"darkEnhanceOnToast\"。"
+  },
+  "darkEnhanceOffToast": "暗部增强: 关",
+  "@darkEnhanceOffToast": {
+    "description": "本地化字符串：\"darkEnhanceOffToast\"。"
+  },
+  "keypointVisibilityToast": "关键点 {index}: {visibility}",
+  "@keypointVisibilityToast": {
+    "placeholders": {
+      "index": {},
+      "visibility": {}
+    },
+    "description": "本地化字符串：\"keypointVisibilityToast\"。"
+  },
+  "splashSubtitle": "图像标注工具",
+  "@splashSubtitle": {
+    "description": "本地化字符串：\"splashSubtitle\"。"
+  },
+  "splashLoading": "加载中...",
+  "@splashLoading": {
+    "description": "本地化字符串：\"splashLoading\"。"
+  },
+  "toolbarSettingsTooltip": "项目设置",
+  "@toolbarSettingsTooltip": {
+    "description": "本地化字符串：\"toolbarSettingsTooltip\"。"
+  },
+  "toolbarDeleteFailed": "删除失败: {error}",
+  "@toolbarDeleteFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "本地化字符串：\"toolbarDeleteFailed\"。"
+  },
+  "noClasses": "无类别",
+  "@noClasses": {
+    "description": "本地化字符串：\"noClasses\"。"
+  },
+  "unknownProjectName": "未知项目",
+  "@unknownProjectName": {
+    "description": "本地化字符串：\"unknownProjectName\"。"
+  },
+  "currentProjectName": "当前项目",
+  "@currentProjectName": {
+    "description": "本地化字符串：\"currentProjectName\"。"
+  },
+  "pointsCount": "{count} 点",
+  "@pointsCount": {
+    "placeholders": {
+      "count": {}
+    },
+    "description": "本地化字符串：\"pointsCount\"。"
+  },
+  "labelTypeBox": "Box",
+  "@labelTypeBox": {
+    "description": "本地化字符串：\"labelTypeBox\"。"
+  },
+  "labelTypeBoxWithPoint": "BoxWithPoint",
+  "@labelTypeBoxWithPoint": {
+    "description": "本地化字符串：\"labelTypeBoxWithPoint\"。"
+  },
+  "labelTypePolygon": "Polygon",
+  "@labelTypePolygon": {
+    "description": "本地化字符串：\"labelTypePolygon\"。"
+  },
+  "gadgetTargetClasses": "目标 classes.txt",
+  "@gadgetTargetClasses": {
+    "description": "本地化字符串：\"gadgetTargetClasses\"。"
+  },
+  "gadgetClassMapping": "类别映射",
+  "@gadgetClassMapping": {
+    "description": "本地化字符串：\"gadgetClassMapping\"。"
+  },
+  "gadgetMappingDelete": "(删除)",
+  "@gadgetMappingDelete": {
+    "description": "本地化字符串：\"gadgetMappingDelete\"。"
+  },
+  "selectDirButton": "选择",
+  "@selectDirButton": {
+    "description": "本地化字符串：\"selectDirButton\"。"
+  },
+  "selectFileButton": "选择",
+  "@selectFileButton": {
+    "description": "本地化字符串：\"selectFileButton\"。"
+  },
+  "labelDefinitionSubtitle": "ID: {id} · {type}",
+  "@labelDefinitionSubtitle": {
+    "placeholders": {
+      "id": {},
+      "type": {}
+    },
+    "description": "本地化字符串：\"labelDefinitionSubtitle\"。"
+  },
+  "errorProjectNotLoaded": "未加载项目",
+  "@errorProjectNotLoaded": {
+    "description": "本地化字符串：\"errorProjectNotLoaded\"。"
+  },
+  "errorAiModelNotConfigured": "未配置AI模型",
+  "@errorAiModelNotConfigured": {
+    "description": "本地化字符串：\"errorAiModelNotConfigured\"。"
+  },
+  "errorAiModelLoadFailed": "加载AI模型失败",
+  "@errorAiModelLoadFailed": {
+    "description": "本地化字符串：\"errorAiModelLoadFailed\"。"
+  },
+  "errorImageNotSelected": "未选择图片",
+  "@errorImageNotSelected": {
+    "description": "本地化字符串：\"errorImageNotSelected\"。"
+  },
+  "errorAiInferenceFailed": "自动标注失败: {error}",
+  "@errorAiInferenceFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "本地化字符串：\"errorAiInferenceFailed\"。"
+  },
+  "errorProjectListLoadFailed": "加载项目列表失败: {error}",
+  "@errorProjectListLoadFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "本地化字符串：\"errorProjectListLoadFailed\"。"
+  },
+  "errorProjectListSaveFailed": "保存项目列表失败: {error}",
+  "@errorProjectListSaveFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "本地化字符串：\"errorProjectListSaveFailed\"。"
+  },
+  "errorProjectLoadFailed": "加载项目失败: {error}",
+  "@errorProjectLoadFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "本地化字符串：\"errorProjectLoadFailed\"。"
+  },
+  "errorImageFileNotFound": "图像文件不存在: {path}",
+  "@errorImageFileNotFound": {
+    "placeholders": {
+      "path": {}
+    },
+    "description": "本地化字符串：\"errorImageFileNotFound\"。"
+  },
+  "errorImageDecodeFailed": "图像解码失败",
+  "@errorImageDecodeFailed": {
+    "description": "本地化字符串：\"errorImageDecodeFailed\"。"
+  },
+  "errorAiModelNotLoaded": "模型未加载",
+  "@errorAiModelNotLoaded": {
+    "description": "本地化字符串：\"errorAiModelNotLoaded\"。"
+  },
+  "errorIoOperationFailed": "文件操作失败：{error}",
+  "@errorIoOperationFailed": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "本地化字符串：\"errorIoOperationFailed\"。"
+  },
+  "errorUnsavedChanges": "存在未保存的更改，请先保存",
+  "@errorUnsavedChanges": {
+    "description": "本地化字符串：\"errorUnsavedChanges\"。"
+  },
+  "errorUnexpected": "发生未知错误：{error}",
+  "@errorUnexpected": {
+    "placeholders": {
+      "error": {}
+    },
+    "description": "本地化字符串：\"errorUnexpected\"。"
+  },
+  "errorLabelLineEmpty": "空行",
+  "@errorLabelLineEmpty": {
+    "description": "本地化字符串：\"errorLabelLineEmpty\"。"
+  },
+  "errorLabelInvalidClassId": "无效的类别ID: {value}",
+  "@errorLabelInvalidClassId": {
+    "placeholders": {
+      "value": {}
+    },
+    "description": "本地化字符串：\"errorLabelInvalidClassId\"。"
+  },
+  "errorLabelInvalidPolygon": "无效的多边形格式(点数<3): {line}",
+  "@errorLabelInvalidPolygon": {
+    "placeholders": {
+      "line": {}
+    },
+    "description": "本地化字符串：\"errorLabelInvalidPolygon\"。"
+  },
+  "errorLabelInvalidBox": "无效的检测框格式(列数<5): {line}",
+  "@errorLabelInvalidBox": {
+    "placeholders": {
+      "line": {}
+    },
+    "description": "本地化字符串：\"errorLabelInvalidBox\"。"
+  },
+  "gadgetMerge": "合并标签类",
+  "@gadgetMerge": {
+    "description": "本地化字符串：\"gadgetMerge\"。"
+  },
+  "gadgetMergeDesc": "合并多个标签类别",
+  "@gadgetMergeDesc": {
+    "description": "本地化字符串：\"gadgetMergeDesc\"。"
+  },
+  "gadgetBboxAdd": "添加Bbox",
+  "@gadgetBboxAdd": {
+    "description": "本地化字符串：\"gadgetBboxAdd\"。"
+  },
+  "gadgetBboxAddDesc": "从关键点计算边界框",
+  "@gadgetBboxAddDesc": {
+    "description": "本地化字符串：\"gadgetBboxAddDesc\"。"
+  },
+  "gadgetPointDelete": "删除关键点",
+  "@gadgetPointDelete": {
+    "description": "本地化字符串：\"gadgetPointDelete\"。"
+  },
+  "gadgetPointDeleteDesc": "只保留bbox数据",
+  "@gadgetPointDeleteDesc": {
+    "description": "本地化字符串：\"gadgetPointDeleteDesc\"。"
+  },
+  "selectInputDir": "选择输入目录",
+  "@selectInputDir": {
+    "description": "本地化字符串：\"selectInputDir\"。"
+  },
+  "selectOutputDir": "选择输出目录",
+  "@selectOutputDir": {
+    "description": "本地化字符串：\"selectOutputDir\"。"
+  },
+  "selectTargetDir": "选择目标目录",
+  "@selectTargetDir": {
+    "description": "本地化字符串：\"selectTargetDir\"。"
+  },
+  "inputDir": "输入目录",
+  "@inputDir": {
+    "description": "本地化字符串：\"inputDir\"。"
+  },
+  "outputDir": "输出目录",
+  "@outputDir": {
+    "description": "本地化字符串：\"outputDir\"。"
+  },
+  "targetDir": "目标目录",
+  "@targetDir": {
+    "description": "本地化字符串：\"targetDir\"。"
+  },
+  "startProcess": "开始",
+  "@startProcess": {
+    "description": "本地化字符串：\"startProcess\"。"
+  },
+  "processing": "处理中...",
+  "@processing": {
+    "description": "本地化字符串：\"processing\"。"
+  },
+  "progress": "进度",
+  "@progress": {
+    "description": "本地化字符串：\"progress\"。"
+  },
+  "success": "成功",
+  "@success": {
+    "description": "本地化字符串：\"success\"。"
+  },
+  "failed": "失败",
+  "@failed": {
+    "description": "本地化字符串：\"failed\"。"
+  },
+  "completed": "完成",
+  "@completed": {
+    "description": "本地化字符串：\"completed\"。"
+  },
+  "frameInterval": "抽帧间隔（秒）",
+  "@frameInterval": {
+    "description": "本地化字符串：\"frameInterval\"。"
+  },
+  "videoFiles": "视频文件",
+  "@videoFiles": {
+    "description": "本地化字符串：\"videoFiles\"。"
+  },
+  "extractFrames": "提取帧",
+  "@extractFrames": {
+    "description": "本地化字符串：\"extractFrames\"。"
+  },
+  "foundNVideos": "找到 {count} 个视频",
+  "@foundNVideos": {
+    "description": "本地化字符串：\"foundNVideos\"。"
+  },
+  "foundNImages": "找到 {count} 张图片",
+  "@foundNImages": {
+    "description": "本地化字符串：\"foundNImages\"。"
+  },
+  "foundNLabels": "找到 {count} 个标签",
+  "@foundNLabels": {
+    "description": "本地化字符串：\"foundNLabels\"。"
+  },
+  "successNFailedM": "成功：{success}，失败：{failed}",
+  "@successNFailedM": {
+    "description": "本地化字符串：\"successNFailedM\"。"
+  },
+  "inputEmpty": "输入为空",
+  "@inputEmpty": {
+    "description": "本地化字符串：\"inputEmpty\"。"
+  },
+  "outputEmpty": "输出为空",
+  "@outputEmpty": {
+    "description": "本地化字符串：\"outputEmpty\"。"
+  },
+  "xyxyWarning": "即将进行转换，请确保原本数据为XYXY格式，且不要重复转换，否则会造成不可逆的数据损失。（建议备份）",
+  "@xyxyWarning": {
+    "description": "本地化字符串：\"xyxyWarning\"。"
+  },
+  "bboxExpandWarning": "即将扩充边界框，请先备份数据。",
+  "@bboxExpandWarning": {
+    "description": "本地化字符串：\"bboxExpandWarning\"。"
+  },
+  "checkAndFix": "检查并修复",
+  "@checkAndFix": {
+    "description": "本地化字符串：\"checkAndFix\"。"
+  },
+  "checkDesc": "检查并修复越界bbox和重复标签",
+  "@checkDesc": {
+    "description": "本地化字符串：\"checkDesc\"。"
+  },
+  "expandRatioX": "X扩充比例",
+  "@expandRatioX": {
+    "description": "本地化字符串：\"expandRatioX\"。"
+  },
+  "expandRatioY": "Y扩充比例",
+  "@expandRatioY": {
+    "description": "本地化字符串：\"expandRatioY\"。"
+  },
+  "expandBiasX": "X偏移",
+  "@expandBiasX": {
+    "description": "本地化字符串：\"expandBiasX\"。"
+  },
+  "expandBiasY": "Y偏移",
+  "@expandBiasY": {
+    "description": "本地化字符串：\"expandBiasY\"。"
+  },
+  "warning": "警告",
+  "@warning": {
+    "description": "本地化字符串：\"warning\"。"
+  },
+  "confirm": "确认",
+  "@confirm": {
+    "description": "本地化字符串：\"confirm\"。"
+  },
+  "backupRecommended": "建议备份",
+  "@backupRecommended": {
+    "description": "本地化字符串：\"backupRecommended\"。"
+  },
+  "deleteLabelTitle": "删除标签类别",
+  "@deleteLabelTitle": {
+    "description": "本地化字符串：\"deleteLabelTitle\"。"
+  },
+  "deleteLabelContent": "确定要删除「{name}」(ID: {classId}) 吗？",
+  "@deleteLabelContent": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "classId": {
+        "type": "int"
+      }
+    },
+    "description": "本地化字符串：\"deleteLabelContent\"。"
+  },
+  "deleteLabelContentWithFiles": "确定要删除「{name}」(ID: {classId}) 吗？\n\n⚠️ 标签文件中所有使用该类别的标注也会被删除！",
+  "@deleteLabelContentWithFiles": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "classId": {
+        "type": "int"
+      }
+    },
+    "description": "本地化字符串：\"deleteLabelContentWithFiles\"。"
+  },
+  "labelsDeletedFromFiles": "已从 {files} 个文件中删除 {count} 个标签",
+  "@labelsDeletedFromFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "files": {
+        "type": "int"
+      }
+    },
+    "description": "本地化字符串：\"labelsDeletedFromFiles\"。"
+  },
+  "classIdLabel": "类别ID",
+  "@classIdLabel": {
+    "description": "本地化字符串：\"classIdLabel\"。"
+  },
+  "showUnlabeledPoints": "显示未标注点",
+  "@showUnlabeledPoints": {
+    "description": "本地化字符串：\"showUnlabeledPoints\"。"
+  },
+  "showUnlabeledPointsDesc": "是否显示可见性为0的关键点",
+  "@showUnlabeledPointsDesc": {
+    "description": "本地化字符串：\"showUnlabeledPointsDesc\"。"
+  },
+  "batchInference": "批量推理",
+  "@batchInference": {
+    "description": "本地化字符串：\"batchInference\"。"
+  },
+  "batchInferenceDesc": "对所有图片执行AI推理",
+  "@batchInferenceDesc": {
+    "description": "本地化字符串：\"batchInferenceDesc\"。"
+  },
+  "batchInferenceRunning": "正在批量推理... ({current}/{total})",
+  "@batchInferenceRunning": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    },
+    "description": "本地化字符串：\"batchInferenceRunning\"。"
+  },
+  "batchInferenceComplete": "批量推理完成",
+  "@batchInferenceComplete": {
+    "description": "本地化字符串：\"batchInferenceComplete\"。"
+  },
+  "deleteImageAndLabel": "删除图片和标签",
+  "@deleteImageAndLabel": {
+    "description": "本地化字符串：\"deleteImageAndLabel\"。"
+  },
+  "deleteImageConfirm": "确定要删除当前图片和对应标签吗？此操作无法撤销。",
+  "@deleteImageConfirm": {
+    "description": "本地化字符串：\"deleteImageConfirm\"。"
+  },
+  "imageDeleted": "已删除图片和标签",
+  "@imageDeleted": {
+    "description": "本地化字符串：\"imageDeleted\"。"
+  },
+  "keySpace": "空格",
+  "@keySpace": {
+    "description": "本地化字符串：\"keySpace\"。"
+  },
+  "keyBackspace": "退格",
+  "@keyBackspace": {
+    "description": "本地化字符串：\"keyBackspace\"。"
+  },
+  "keyArrowUp": "↑",
+  "@keyArrowUp": {
+    "description": "本地化字符串：\"keyArrowUp\"。"
+  },
+  "keyArrowDown": "↓",
+  "@keyArrowDown": {
+    "description": "本地化字符串：\"keyArrowDown\"。"
+  },
+  "keyArrowLeft": "←",
+  "@keyArrowLeft": {
+    "description": "本地化字符串：\"keyArrowLeft\"。"
+  },
+  "keyArrowRight": "→",
+  "@keyArrowRight": {
+    "description": "本地化字符串：\"keyArrowRight\"。"
+  },
+  "mouseLeft": "鼠标左键",
+  "@mouseLeft": {
+    "description": "本地化字符串：\"mouseLeft\"。"
+  },
+  "mouseRight": "鼠标右键",
+  "@mouseRight": {
+    "description": "本地化字符串：\"mouseRight\"。"
+  },
+  "mouseMiddle": "鼠标中键",
+  "@mouseMiddle": {
+    "description": "本地化字符串：\"mouseMiddle\"。"
+  },
+  "mouseBack": "鼠标后退键",
+  "@mouseBack": {
+    "description": "本地化字符串：\"mouseBack\"。"
+  },
+  "mouseForward": "鼠标前进键",
+  "@mouseForward": {
+    "description": "本地化字符串：\"mouseForward\"。"
+  },
+  "scrollUp": "滚轮上滚",
+  "@scrollUp": {
+    "description": "本地化字符串：\"scrollUp\"。"
+  },
+  "scrollDown": "滚轮下滚",
+  "@scrollDown": {
+    "description": "本地化字符串：\"scrollDown\"。"
+  },
+  "actionPrevImage": "上一张图片",
+  "@actionPrevImage": {
+    "description": "本地化字符串：\"actionPrevImage\"。"
+  },
+  "actionNextImage": "下一张图片",
+  "@actionNextImage": {
+    "description": "本地化字符串：\"actionNextImage\"。"
+  },
+  "actionPrevLabel": "上一个标签",
+  "@actionPrevLabel": {
+    "description": "本地化字符串：\"actionPrevLabel\"。"
+  },
+  "actionNextLabel": "下一个标签",
+  "@actionNextLabel": {
+    "description": "本地化字符串：\"actionNextLabel\"。"
+  },
+  "actionToggleMode": "切换模式（创建/编辑）",
+  "@actionToggleMode": {
+    "description": "本地化字符串：\"actionToggleMode\"。"
+  },
+  "actionNextClass": "下一个类别",
+  "@actionNextClass": {
+    "description": "本地化字符串：\"actionNextClass\"。"
+  },
+  "actionDeleteSelected": "删除选中",
+  "@actionDeleteSelected": {
+    "description": "本地化字符串：\"actionDeleteSelected\"。"
+  },
+  "actionSave": "保存标签",
+  "@actionSave": {
+    "description": "本地化字符串：\"actionSave\"。"
+  },
+  "actionUndo": "撤销",
+  "@actionUndo": {
+    "description": "本地化字符串：\"actionUndo\"。"
+  },
+  "actionRedo": "重做",
+  "@actionRedo": {
+    "description": "本地化字符串：\"actionRedo\"。"
+  },
+  "actionToggleDarkEnhance": "切换暗部增强",
+  "@actionToggleDarkEnhance": {
+    "description": "本地化字符串：\"actionToggleDarkEnhance\"。"
+  },
+  "actionCancelOperation": "取消操作",
+  "@actionCancelOperation": {
+    "description": "本地化字符串：\"actionCancelOperation\"。"
+  },
+  "actionCycleBinding": "循环切换绑定",
+  "@actionCycleBinding": {
+    "description": "本地化字符串：\"actionCycleBinding\"。"
+  },
+  "actionAiInference": "AI推理",
+  "@actionAiInference": {
+    "description": "本地化字符串：\"actionAiInference\"。"
+  },
+  "actionToggleVisibility": "切换关键点可见性",
+  "@actionToggleVisibility": {
+    "description": "本地化字符串：\"actionToggleVisibility\"。"
+  },
+  "actionMouseCreate": "创建（鼠标/键盘）",
+  "@actionMouseCreate": {
+    "description": "本地化字符串：\"actionMouseCreate\"。"
+  },
+  "actionMouseDelete": "删除（鼠标/键盘）",
+  "@actionMouseDelete": {
+    "description": "本地化字符串：\"actionMouseDelete\"。"
+  },
+  "actionMouseMove": "移动/拖拽（鼠标/键盘）",
+  "@actionMouseMove": {
+    "description": "本地化字符串：\"actionMouseMove\"。"
+  },
+  "actionZoomIn": "放大",
+  "@actionZoomIn": {
+    "description": "本地化字符串：\"actionZoomIn\"。"
+  },
+  "actionZoomOut": "缩小",
+  "@actionZoomOut": {
+    "description": "本地化字符串：\"actionZoomOut\"。"
+  },
+  "categoryNavigation": "导航",
+  "@categoryNavigation": {
+    "description": "本地化字符串：\"categoryNavigation\"。"
+  },
+  "categoryLabelSwitch": "标签切换",
+  "@categoryLabelSwitch": {
+    "description": "本地化字符串：\"categoryLabelSwitch\"。"
+  },
+  "categoryMode": "模式",
+  "@categoryMode": {
+    "description": "本地化字符串：\"categoryMode\"。"
+  },
+  "categoryEdit": "编辑",
+  "@categoryEdit": {
+    "description": "本地化字符串：\"categoryEdit\"。"
+  },
+  "categoryMouse": "指针操作",
+  "@categoryMouse": {
+    "description": "本地化字符串：\"categoryMouse\"。"
+  },
+  "categoryZoom": "缩放",
+  "@categoryZoom": {
+    "description": "本地化字符串：\"categoryZoom\"。"
+  },
+  "noBinding": "(无)",
+  "@noBinding": {
+    "description": "本地化字符串：\"noBinding\"。"
+  },
+  "pressMouseButton": "请点击鼠标按键...",
+  "@pressMouseButton": {
+    "description": "本地化字符串：\"pressMouseButton\"。"
+  },
+  "scrollOrPressKey": "请滚动滚轮或按下按键/鼠标按键...",
+  "@scrollOrPressKey": {
+    "description": "本地化字符串：\"scrollOrPressKey\"。"
+  },
+  "pressKeyCombo": "请按下按键组合...",
+  "@pressKeyCombo": {
+    "description": "本地化字符串：\"pressKeyCombo\"。"
+  },
+  "pressKeyOrMouseButton": "请按下按键或鼠标按键...",
+  "@pressKeyOrMouseButton": {
+    "description": "本地化字符串：\"pressKeyOrMouseButton\"。"
+  },
+  "twoClickModeTip": "在两点点击模式下，BoxWithPoint 类型标签使用{moveKey}单击添加关键点",
+  "@twoClickModeTip": {
+    "placeholders": {
+      "moveKey": {
+        "type": "String"
+      }
+    },
+    "description": "本地化字符串：\"twoClickModeTip\"。"
+  },
+  "classIdOffset": "类别ID偏置",
+  "@classIdOffset": {
+    "description": "本地化字符串：\"classIdOffset\"。"
+  },
+  "classIdOffsetDesc": "仅在追加模式下有效，用于合并多个模型，避免ID冲突",
+  "@classIdOffsetDesc": {
+    "description": "本地化字符串：\"classIdOffsetDesc\"。"
+  }
+}

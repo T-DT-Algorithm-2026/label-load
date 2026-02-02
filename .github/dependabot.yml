@@ -1,0 +1,65 @@
+# Dependabot 配置
+# 自动检查依赖更新
+
+version: 2
+updates:
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "dependencies"
+      - "ci"
+    allow:
+      # 仅维护核心 CI 供应链依赖
+      - dependency-name: "actions/checkout"
+      - dependency-name: "subosito/flutter-action"
+      - dependency-name: "codecov/codecov-action"
+      - dependency-name: "actions/upload-artifact"
+      - dependency-name: "actions/download-artifact"
+      - dependency-name: "softprops/action-gh-release"
+
+  # Pub (Flutter/Dart)
+  - package-ecosystem: "pub"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
+    labels:
+      - "dependencies"
+      - "dart"
+    allow:
+      # 仅维护核心运行时/平台依赖
+      - dependency-name: "provider"
+      - dependency-name: "path"
+      - dependency-name: "path_provider"
+      - dependency-name: "shared_preferences"
+      - dependency-name: "uuid"
+      - dependency-name: "file_picker"
+      - dependency-name: "image"
+      - dependency-name: "ffi"
+      - dependency-name: "vector_math"
+      - dependency-name: "flutter_colorpicker"
+    ignore:
+      # 忽略主要版本更新，手动处理
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+  # Pub (onnx_inference)
+  - package-ecosystem: "pub"
+    directory: "/onnx_inference"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps(onnx)"
+    labels:
+      - "dependencies"
+      - "onnx"
+    allow:
+      # 仅维护 FFI 与插件接口稳定性相关依赖
+      - dependency-name: "ffi"
+      - dependency-name: "plugin_platform_interface"

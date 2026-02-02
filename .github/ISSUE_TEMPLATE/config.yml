@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/T-DT-Algorithm-2026/label-load/discussions
+    about: Ask questions, share ideas, or discuss with the community
+  - name: 📖 Documentation
+    url: https://github.com/T-DT-Algorithm-2026/label-load#readme
+    about: Read the documentation and usage guide
+  - name: 🔒 Security Issues
+    url: https://github.com/T-DT-Algorithm-2026/label-load/security/policy
+    about: Report security vulnerabilities privately

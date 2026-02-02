@@ -1,0 +1,25 @@
+name: onnx_inference
+description: "Flutter FFI plugin for ONNX Runtime inference with YOLOv8 models."
+version: 0.0.1
+
+environment:
+  sdk: ^3.6.2
+  flutter: '>=3.3.0'
+
+dependencies:
+  ffi: ^2.1.3
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  ffigen: ^13.0.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      linux:
+        ffiPlugin: true
