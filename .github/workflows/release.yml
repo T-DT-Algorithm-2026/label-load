@@ -225,7 +225,7 @@ jobs:
           EOF
 
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           name: LabelLoad v${{ needs.build-cpu.outputs.version }}
           body_path: release_notes.md
