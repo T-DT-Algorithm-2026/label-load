@@ -68,7 +68,7 @@ Have an idea? [Request a feature](../../issues/new?template=feature_request.yml)
 
 - **Flutter SDK** 3.6+
 - **Linux** development environment (Ubuntu 22.04+ recommended)
-- **ONNX Runtime** 1.20.0 (for AI features)
+- **ONNX Runtime** 1.23.0 (for AI features)
 - **Docker** (for release builds)
 
 ### Fork and Clone
@@ -88,7 +88,7 @@ cd label-load/label_load
 flutter pub get
 
 # Install ONNX Runtime (for AI inference)
-ORT_VERSION="1.20.0"
+ORT_VERSION="1.23.0"
 wget "https://github.com/microsoft/onnxruntime/releases/download/v${ORT_VERSION}/onnxruntime-linux-x64-${ORT_VERSION}.tgz"
 tar -xzf "onnxruntime-linux-x64-${ORT_VERSION}.tgz"
 sudo cp onnxruntime-linux-x64-${ORT_VERSION}/lib/*.so* /usr/local/lib/
@@ -284,7 +284,7 @@ All pull requests are automatically checked by our CI pipeline:
 
 Releases are automated via GitHub Actions:
 
-1. Create and push a version tag: `git tag v1.0.5 && git push --tags`
+1. Create and push a version tag: `git tag v1.0.6 && git push --tags`
 2. CI automatically builds CPU and GPU DEB packages
 3. Packages are uploaded to GitHub Releases
 

@@ -25,7 +25,7 @@ on:
 
 env:
   FLUTTER_VERSION: '3.27.4'
-  ORT_VERSION: '1.20.0'
+  ORT_VERSION: '1.23.0'
 
 # 取消同一 PR 的重复运行
 concurrency:
@@ -211,4 +211,3 @@ jobs:
           ls -la build/linux/x64/release/bundle/
           test -f build/linux/x64/release/bundle/label_load
           echo "✅ Build verification passed!"
-
