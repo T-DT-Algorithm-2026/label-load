@@ -5,11 +5,12 @@
 # 完全在 Docker 内完成构建，不依赖宿主机环境
 #
 # 用法: ./packaging/build_docker.sh [选项]
-#   --gpu         构建 GPU 版本 (需用户自装 CUDA)
-#   --cpu         构建 CPU 版本 (默认)
-#   --rebuild     强制重建 Docker 镜像
-#   --version X   指定版本号 (默认读取 build_deb.sh)
-#   --no-cache    Docker 构建不使用缓存
+#   --gpu            构建 GPU 版本 (需用户自装 CUDA)
+#   --cpu            构建 CPU 版本 (默认)
+#   --rebuild        强制重建 Docker 镜像
+#   --version X      指定版本号 (默认读取 build_deb.sh)
+#   --ort-version X  指定 ONNX Runtime 版本
+#   --no-cache       Docker 构建不使用缓存
 #
 # 输出: build/release/label-load_版本_amd64.deb
 # ==============================================================================
@@ -47,7 +48,7 @@ WITH_GPU=false
 REBUILD=false
 NO_CACHE=false
 VERSION=""
-ORT_VERSION="1.20.0"
+ORT_VERSION="1.23.0"
 
 # 解析参数
 while [[ $# -gt 0 ]]; do
@@ -70,6 +71,15 @@ while [[ $# -gt 0 ]]; do
                 VERSION="$1"
             else
                 log_error "--version 需要指定版本号"
+                exit 1
+            fi
+            ;;
+        --ort-version)
+            shift
+            if [[ -n "${1:-}" ]]; then
+                ORT_VERSION="$1"
+            else
+                log_error "--ort-version 需要指定版本号"
                 exit 1
             fi
             ;;

@@ -1,7 +1,7 @@
 name: label_load
 description: "Enterprise-grade image labeling tool with AI auto-annotation. Supports YOLO format and GPU acceleration."
 publish_to: 'none'
-version: 1.0.4+1
+version: 1.0.5+1
 
 homepage: https://github.com/T-DT-Algorithm-2026/label-load
 repository: https://github.com/T-DT-Algorithm-2026/label-load

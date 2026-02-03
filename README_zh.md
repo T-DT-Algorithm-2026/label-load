@@ -114,6 +114,9 @@ cd label-load/label_load
 # 构建 GPU 发布版
 ./packaging/build_docker.sh --gpu
 
+# 指定 ONNX Runtime 版本
+./packaging/build_docker.sh --cpu --ort-version 1.23.0
+
 # 输出: build/release/label-load_*.deb
 ```
 

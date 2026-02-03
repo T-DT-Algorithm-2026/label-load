@@ -114,6 +114,9 @@ cd label-load/label_load
 # Build GPU release
 ./packaging/build_docker.sh --gpu
 
+# Override ONNX Runtime version
+./packaging/build_docker.sh --cpu --ort-version 1.23.0
+
 # Output: build/release/label-load_*.deb
 ```
 
