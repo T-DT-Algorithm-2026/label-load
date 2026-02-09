@@ -97,7 +97,7 @@ jobs:
           echo "📦 Built: $DEB_NAME"
 
       - name: Upload CPU artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: deb-cpu
           path: build/deb/*.deb
@@ -154,7 +154,7 @@ jobs:
           echo "📦 Built: $DEB_NAME"
 
       - name: Upload GPU artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: deb-gpu
           path: build/deb/*.deb
